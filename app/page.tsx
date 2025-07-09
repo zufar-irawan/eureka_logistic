@@ -2,7 +2,7 @@ import Header from "@/components/header"
 import Footer from "@/components/Footer";
 import ServiceCards from "@/components/services";
 import Privacy from "../components/Privacy";
-
+import Image from "next/image";
 
 export default function Home() {
   return (
