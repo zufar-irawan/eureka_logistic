@@ -14,7 +14,6 @@ export default function Home() {
       <main className="pt-20">
         {/* Hero Section */}
         <section className="relative h-[600px] bg-[url('/images/Background1.jpeg')] bg-cover bg-center bg-no-repeat">
-          <div className="absolute inset-0 bg-black bg-opacity-70" />
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
             <h1 className="text-5xl font-bold mb-4">Start Your Journey with Eureka Logistic.</h1>
             <p className="text-lg text-gray-300 max-w-2xl">
@@ -42,12 +41,12 @@ export default function Home() {
             ].map((card, idx) => (
               <div
                 key={idx}
-                className="bg-white p-6 rounded-xl shadow-xl text-center hover:shadow-2xl transition"
+                className="bg-blue-400 p-6 rounded-xl shadow-xl text-center hover:shadow-2xl transition"
               >
                 <div className="flex justify-center mb-4">
-                  <div className="bg-gray-200 p-3 rounded-full">
+                  <div className="bg-white p-3 rounded-full">
                     <svg
-                      className="w-6 h-6 text-gray-700"
+                      className="w-6 h-6 text-black"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
