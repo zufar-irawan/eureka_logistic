@@ -16,11 +16,11 @@ const Header = () => {
 
                 <nav>
                     <ul className="flex gap-6">
-                        <li className="text-gray-500 hover:text-blue-600"><Link href="#">Beranda</Link></li>
-                        <li className="text-gray-500 hover:text-blue-600"><Link href="#">Tentang</Link></li>
-                        <li className="text-gray-500 hover:text-blue-600"><Link href="#">Projek</Link></li>
-                        <li className="text-gray-500 hover:text-blue-600"><Link href="#">Kontak</Link></li>
-                        <li className="text-gray-500 hover:text-blue-600"><Link href="/Privacy">Cabang</Link></li>
+                        <li className="text-gray-500 hover:text-blue-600"><Link href="#beranda">Beranda</Link></li>
+                        <li className="text-gray-500 hover:text-blue-600"><Link href="#project">Service</Link></li>
+                        <li className="text-gray-500 hover:text-blue-600"><Link href="#alamat">Kontak</Link></li>
+                        <li className="text-gray-500 hover:text-blue-600"><Link href="#branch">Cabang</Link></li>
+                        <li className="text-gray-500 hover:text-blue-600"><Link href="#operasional">Operasional</Link></li>
                     </ul>
                 </nav>
             </header>
