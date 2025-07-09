@@ -75,7 +75,7 @@ export default function Home() {
             ].map((card, idx) => (
               <div
                 key={idx}
-                className="bg-white p-6 rounded-xl shadow-xl text-center hover:shadow-2xl transition"
+                className="bg-blue-400 p-6 rounded-xl shadow-xl text-center hover:shadow-2xl transition"
               >
                 <div className="flex justify-center mb-4">
                   <div className="bg-white p-3 rounded-full">
