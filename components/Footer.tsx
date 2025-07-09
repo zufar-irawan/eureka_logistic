@@ -29,7 +29,7 @@ export default function Footer() {
 
           {/* Kebijakan */}
           <div className="flex justify-center md:justify-end">
-            <Link href="#" className="hover:underline hover:text-[#eb262c] transition">Kebijakan Privasi</Link>
+            <Link href="/Privacy" className="hover:underline hover:text-[#eb262c] transition">Kebijakan Privasi</Link>
           </div>
         </motion.div>
 

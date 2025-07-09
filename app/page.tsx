@@ -1,6 +1,8 @@
 import Header from "@/components/header"
 import Footer from "@/components/Footer";
-import ServiceCards from "@/components/Services";
+import ServiceCards from "@/components/services";
+import Privacy from "../components/Privacy";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,8 +18,7 @@ export default function Home() {
               Start Your Journey with Eureka!Logistic.
             </h1>
             <p className="text-lg text-gray-300 max-w-2xl">
-              This is a simple example of a Landing Page you can build using Material Tailwind.
-              It features multiple components based on the Tailwind CSS and Material Design by Google.
+              Kami Solusi Ekspedisi Anda
             </p>
           </div>
         </section>
@@ -61,8 +62,53 @@ export default function Home() {
           </div>
         </section>
 
-      </main>
+        {/* Project */}
+        <section id="project" className="px-10 pt-20 pb-10">
+          <div className="text-center w-full">
+            <h1 className="font-bold text-2xl py-6">Our Awesome Project</h1>
+            <p className="text-gray-700 pt-2 text-sm">Kami Solusi Ekspedisi Anda</p>
+            <p className="text-gray-700 pt-3 text-sm w-[50%] mx-auto pb-6">
+              Pelayanan pengiriman dari dan ke seluruh indonesia
+              melalui darat, laut dan udara dengan waktu kirim cepat
+              maupun kirim regular, kirim dari gudang ke gudang,
+              kirim dari pelabuhan ke gudang atau kirim dari gudang
+              ke pelabuhan serta kirim dari pelabuhan ke pelabuhan.
+            </p>
+          </div>
 
+
+          <ServiceCards />
+
+        </section>
+
+        {/* Alamat */}
+        <section id="alamat" className="py-10">
+          <div className="bg-blue-500 w-full p-20">
+            <div className="flex gap-10 w-[80%] mx-auto">
+              <div>
+                <Image
+                  src="/images/alamat.png"
+                  alt="Alamat.png"
+                  width={500}
+                  height={500}
+                  className="rounded-4xl"
+                />
+              </div>
+
+              <div className="text-white h-full my-auto">
+                <h1 className="text-3xl font-bold py-5">Alamat Kantor</h1>
+                <p className="text-md">JI. H.Baping Raya No.100 Ciracas - Jakarta Timur<br />
+                  Odivening Hours Mon-Fri: 08:00-16:00<br />
+                  Give us a Call 02187796010<br />
+                  Send us a Message info@eurekalogistics.co.id</p>
+              </div>
+
+
+            </div>
+          </div>
+
+        </section>
+      </main>
       <Footer />
     </>
   );
