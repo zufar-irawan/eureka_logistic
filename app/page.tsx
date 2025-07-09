@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import ServiceCards from "@/components/services";
 import Privacy from "../components/Privacy";
 import Image from "next/image";
+import Branch from "@/components/Branch";
 
 export default function Home() {
   return (
@@ -95,7 +96,7 @@ export default function Home() {
               </div>
 
               <div className="text-white h-full my-auto">
-                <h1 className="text-3xl font-bold py-5">Alamat Kantor</h1>
+                <h1 className="text-3xl font-bold py-5">Head Office</h1>
                 <p className="text-md">JI. H.Baping Raya No.100 Ciracas - Jakarta Timur<br />
                   Odivening Hours Mon-Fri: 08:00-16:00<br />
                   Give us a Call 02187796010<br />
@@ -107,7 +108,18 @@ export default function Home() {
           </div>
 
         </section>
+
+        {/* Branch */}
+        <section id="branch" className="py-10 px-10">
+          <div className="w-full">
+            <h1 className="font-bold text-2xl text-center">Cabang</h1>
+            <p className="text-gray-500 pt-8 text-sm text-center">Kami membuka banyak cabang dari berbagai daerah di Indonesia</p>
+          </div>
+
+          <Branch />
+        </section>
       </main>
+
       <Footer />
     </>
   );
