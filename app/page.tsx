@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Header from '@/components/header';
 import Footer from '@/components/Footer';
+import Branch from '@/components/Branch'
 import ServiceCards from '@/components/services';
 import Privacy from '../components/Privacy';
 import Branch from '@/components/Branch';

@@ -33,6 +33,45 @@ export default function Footer() {
           </div>
         </motion.div>
 
+        {/* Mitra Industri */}
+        <motion.div
+          className="mt-10"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          <h3 className="text-center text-sm font-semibold mb-6 uppercase tracking-widest text-[#0c229f]">
+            Mitra Industri
+          </h3>
+          <div className="flex justify-center flex-wrap gap-6">
+            {[
+              ["eurekabook", "Eureka Bookhouse"],
+              ["jajaid", "Jaja.id"],
+              ["jajato", "Jajato"],
+              ["masterdis", "Master Diskon"],
+              ["rajacepat", "Raja Cepat"],
+              ["katarasa", "Katarasa"]
+            ].map(([src, alt], i) => (
+              <motion.div
+                key={src}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: i * 0.1 }}
+                className="w-20 h-20 bg-blue-900 rounded-full flex items-center justify-center shadow-md hover:scale-105 transition-transform"
+              >
+                <Image
+                  src={`/images/${src}.png`}
+                  alt={alt}
+                  width={40}
+                  height={40}
+                  className="object-contain rounded-full"
+                />
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
       </div>
     </footer>
   )
