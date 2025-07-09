@@ -57,7 +57,7 @@ const Branch = () => {
                     bg-white border border-gray-200 
                     rounded-lg p-6 hover:shadow-lg duration-300 
                     hover:border-gray-300 transition-all
-                    hover:rounded-4xl
+                    hover:rounded-4xl hover:scale-110
                 ">
                     <h1 className="text-lg font-semibold text-gray-800 mb-3 text-center">
                         {cabang.title}

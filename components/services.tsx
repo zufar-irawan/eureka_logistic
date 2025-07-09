@@ -66,8 +66,8 @@ const ServiceCards = () => {
                     className="
                         bg-white border border-gray-200 
                         rounded-lg p-6 hover:shadow-lg duration-300 
-                        cursor-pointer hover:border-gray-300
-                        hover:bg-blue-100 transition-all
+                        hover:border-gray-300 hover:bg-blue-100 
+                        transition-all hover:scale-110
                     ">
                     <div className="flex justify-center mb-4">
                         {service.icon}
