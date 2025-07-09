@@ -1,7 +1,8 @@
-import Image from "next/image";
-import Header from "@/components/header";
-import ServiceCards from "@/components/services";
+import Header from "@/components/header"
 import Footer from "@/components/Footer";
+import ServiceCards from "@/components/services";
+import Privacy from "../components/Privacy";
+
 
 export default function Home() {
   return (
@@ -9,12 +10,11 @@ export default function Home() {
       <Header />
 
       <main className="pt-20">
-
         {/* Hero Section */}
-        <section className="relative h-[500px] bg-[url('/images/Background1.jpeg')] bg-cover bg-center bg-no-repeat">
+        <section className="relative h-[600px] bg-[url('/images/Background1.jpeg')] bg-cover bg-center bg-no-repeat">
           <div className="absolute inset-0 bg-black bg-opacity-70" />
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
-            <h1 className="text-4xl font-bold mb-4">Your story starts with us.</h1>
+            <h1 className="text-5xl font-bold mb-4">Start Your Journey with Eureka!Logistic.</h1>
             <p className="text-lg text-gray-300 max-w-2xl">
               This is a simple example of a Landing Page you can build using Material Tailwind.
               It features multiple components based on the Tailwind CSS and Material Design by Google.
@@ -22,25 +22,21 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Feature Cards */}
-        <section className="pt-20 pb-16 bg-gray-100 relative z-20">
+        {/* Feature Cards - floating tanpa bg section */}
+        <section className="-mt-[100px] pb-20 relative z-20 overflow-hidden">
           <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
-            {/* Card Template */}
             {[
               {
                 title: "Awarded Agency",
-                desc:
-                  "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+                desc: "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
               },
               {
                 title: "Free Revisions",
-                desc:
-                  "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+                desc: "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
               },
               {
                 title: "Verified Company",
-                desc:
-                  "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+                desc: "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
               },
             ].map((card, idx) => (
               <div
@@ -112,8 +108,7 @@ export default function Home() {
 
         </section>
       </main>
-
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
