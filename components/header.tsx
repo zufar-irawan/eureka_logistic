@@ -52,7 +52,7 @@ const Header = () => {
               <Link className="text-gray-500 hover:text-blue-600" href="#" onClick={toggleMenu}>Tentang</Link>
               <Link className="text-gray-500 hover:text-blue-600" href="#" onClick={toggleMenu}>Projek</Link>
               <Link className="text-gray-500 hover:text-blue-600" href="#" onClick={toggleMenu}>Kontak</Link>
-              <Link className="text-gray-500 hover:text-blue-600" href="/Privacy" onClick={toggleMenu}>Cabang</Link>
+              <Link className="text-gray-500 hover:text-blue-600" href="#" onClick={toggleMenu}>Cabang</Link>
             </div>
           </motion.div>
         )}
