@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 import ServiceCards from '@/components/services';
 import Privacy from '../components/Privacy';
 import Branch from '@/components/Branch';
+import 'remixicon/fonts/remixicon.css';
 
 export default function Home() {
   const images = [
@@ -46,7 +47,7 @@ export default function Home() {
             }}
           />
 
-          <div className="relative z-10 flex flex-col items-center justify-center h-full">
+          <div className="relative flex flex-col items-center justify-center h-full">
             <h1 className="text-5xl font-bold mb-4">
               Start Your Journey with Eureka!Logistic.
             </h1>
@@ -57,35 +58,36 @@ export default function Home() {
         </section>
 
         {/* Floating Cards */}
-        <section className="-mt-[100px] pb-20 relative z-20 overflow-hidden">
-          <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
+        <section className="-mt-[120px] pb-10 relative z-40 overflow-hidden">
+          <div className="max-w-6xl pt-5 mx-auto px-4 grid md:grid-cols-3 gap-6">
             {[
               {
                 title: "Jalur Darat",
                 desc: "Pelayanan darat dengan berbagai jenis kendaraan dilengkapi GPS & ERP.",
+                icon: "ri-truck-fill text-gray-800 text-xl"
               },
               {
                 title: "Jalur Laut",
                 desc: "Pengiriman luar Jawa dengan kapal Roro, Pelni, cargo melalui DTD, DTP, PTD, PTP.",
+                icon: "ri-ship-2-fill text-gray-800 text-xl"
               },
               {
                 title: "Jalur Udara",
                 desc: "Transportasi udara untuk pengiriman nasional & internasional.",
+                icon: "ri-flight-takeoff-fill text-gray-800 text-xl"
               },
             ].map((card, idx) => (
               <div
                 key={idx}
-                className="bg-white p-6 rounded-xl shadow-xl text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl"
-              >
+                className="
+                  bg-white p-6 rounded-xl shadow-xl 
+                  text-center transform transition 
+                  duration-300 hover:scale-110 
+                  hover:shadow-2xl
+                ">
                 <div className="flex justify-center mb-4">
-                  <div className="bg-gray-200 p-3 rounded-full">
-                    <svg
-                      className="w-6 h-6 text-gray-700"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2L2 7l10 5 10-5-10-5zm0 9.27L3.11 7 12 3.73 20.89 7 12 11.27zM12 13l10-5v6l-10 5-10-5v-6l10 5z" />
-                    </svg>
+                  <div className="bg-gray-200 py-2 px-3 rounded-full">
+                    <i className={card.icon}></i>
                   </div>
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{card.title}</h3>
