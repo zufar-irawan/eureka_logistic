@@ -16,8 +16,7 @@ export default function Home() {
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
             <h1 className="text-5xl font-bold mb-4">Start Your Journey with Eureka!Logistic.</h1>
             <p className="text-lg text-gray-300 max-w-2xl">
-              This is a simple example of a Landing Page you can build using Material Tailwind.
-              It features multiple components based on the Tailwind CSS and Material Design by Google.
+              Kami Solusi Ekspedisi Anda
             </p>
           </div>
         </section>
