@@ -8,6 +8,7 @@ import Branch from '@/components/Branch'
 import ServiceCards from '@/components/services';
 import Privacy from '../components/Privacy';
 import 'remixicon/fonts/remixicon.css';
+import Link from 'next/link';
 
 export default function Home() {
   const images = [
@@ -32,7 +33,7 @@ export default function Home() {
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="relative h-[600px] text-white text-center px-4 overflow-hidden">
+        <section id="beranda" className="relative h-[600px] text-white text-center px-4 overflow-hidden">
           {/* Layer Background */}
           <div className="absolute inset-0 transition-opacity duration-1000 bg-cover bg-center"
             style={{
@@ -97,6 +98,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Our Project */}
         <section id="project" className="px-10 pt-20 pb-10">
           <div className="text-center w-full">
             <h1 className="font-bold text-2xl py-6">Our Awesome Project</h1>
@@ -142,6 +144,64 @@ export default function Home() {
           </div>
 
           <Branch />
+        </section>
+
+        {/* Operasional */}
+        <section id="operasional" className="py-10">
+          <div className="w-full bg-blue-500 py-10">
+
+            <div className='text-center mb-10'>
+              <h3 className="text-md text-white">Opening Hours</h3>
+              <h3 className="font-bold text-2xl text-white">Head Office</h3>
+            </div>
+
+            <div className="grid grid-cols-2 w-[50%] mx-auto text-center">
+              <div>
+                <h3 className="text-xl text-gray-200">Monday - Friday</h3>
+              </div>
+
+              <div>
+                <h3 className="text-xl text-gray-200">08:00 - 16:00</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* hook */}
+        <section id="hook" className="py-10 pb-20 px-10">
+          <div className='w-full'>
+            <div className='flex gap-18 w-[90%] mx-auto'>
+              <div className='py-2'>
+                <h1 className="font-bold text-2xl text-gray-800 pb-2">
+                  Ayo Tunggu Apa Lagi, Gabung Bersama
+                </h1>
+                <h1 className='font-bold text-4xl text-gray-800 pb-4'>
+                  Eureka <span className='text-blue-500'>Logistics</span><span className='text-red-400'>!</span>
+                </h1>
+                <p className="text-md text-gray-800 mb-8">
+                  Solusi logistik untuk perusahaan yang
+                  memproduksi dan mendistribusikan produknya
+                  di Indonesia
+                </p>
+
+                <Link href={'#'} className='
+                  text-white bg-blue-500 px-15 py-4 rounded-xl
+                  transition-all ease-in-out hover:bg-blue-700
+                '>
+                  Contact Us
+                </Link>
+              </div>
+
+              <div>
+                <Image
+                  src="/images/container.jpg"
+                  alt='Container'
+                  width={500}
+                  height={500}
+                />
+              </div>
+            </div>
+          </div>
         </section>
       </main>
 
