@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "@/components/header";
 import ServiceCards from "@/components/services";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         </section>
 
         {/* Feature Cards */}
-        <section className="-mt-28 pb-16 bg-gray-100 relative z-20">
+        <section className="pt-20 pb-16 bg-gray-100 relative z-20">
           <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
             {/* Card Template */}
             {[
@@ -65,7 +66,7 @@ export default function Home() {
         </section>
 
         {/* Project */}
-        <section id="project" className="px-10 py-5">
+        <section id="project" className="px-10 pt-20 pb-10">
           <div className="text-center w-full">
             <h1 className="font-bold text-2xl py-6">Our Awesome Project</h1>
             <p className="text-gray-700 pt-2 text-sm">Kami Solusi Ekspedisi Anda</p>
@@ -82,9 +83,37 @@ export default function Home() {
           <ServiceCards />
 
         </section>
+
+        {/* Alamat */}
+        <section id="alamat" className="py-10">
+          <div className="bg-blue-500 w-full p-20">
+            <div className="flex gap-10 w-[80%] mx-auto">
+              <div>
+                <Image
+                  src="/images/alamat.png"
+                  alt="Alamat.png"
+                  width={500}
+                  height={500}
+                  className="rounded-4xl"
+                />
+              </div>
+
+              <div className="text-white h-full my-auto">
+                <h1 className="text-3xl font-bold py-5">Alamat Kantor</h1>
+                <p className="text-md">JI. H.Baping Raya No.100 Ciracas - Jakarta Timur<br />
+                  Odivening Hours Mon-Fri: 08:00-16:00<br />
+                  Give us a Call 02187796010<br />
+                  Send us a Message info@eurekalogistics.co.id</p>
+              </div>
+
+
+            </div>
+          </div>
+
+        </section>
       </main>
 
-
+      {/* <Footer /> */}
     </>
   );
 }
