@@ -75,10 +75,10 @@ export default function Home() {
             ].map((card, idx) => (
               <div
                 key={idx}
-                className="bg-blue-400 p-6 rounded-xl shadow-xl text-center hover:shadow-2xl transition"
+                className="bg-white p-6 rounded-xl shadow-xl text-center hover:shadow-2xl transition"
               >
                 <div className="flex justify-center mb-4">
-                  <div className="bg-white p-3 rounded-full">
+                  <div className="bg-gray-300 p-3 rounded-full">
                     <svg
                       className="w-6 h-6 text-black"
                       fill="currentColor"
