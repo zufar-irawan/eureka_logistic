@@ -51,12 +51,13 @@ const Branch = () => {
     ]
 
     return (
-        <div className="pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[60%] mx-auto gap-6">
             {cabang.map((cabang) => (
                 <div key={cabang.id} className="
                     bg-white border border-gray-200 
                     rounded-lg p-6 hover:shadow-lg duration-300 
                     hover:border-gray-300 transition-all
+                    hover:rounded-4xl
                 ">
                     <h1 className="text-lg font-semibold text-gray-800 mb-3 text-center">
                         {cabang.title}
