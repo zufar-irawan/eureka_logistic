@@ -184,7 +184,7 @@ export default function Home() {
                   di Indonesia
                 </p>
 
-                <Link href={'#'} className='
+                <Link href={'#alamat'} className='
                   text-white bg-blue-500 px-15 py-4 rounded-xl
                   transition-all ease-in-out hover:bg-blue-700
                 '>
