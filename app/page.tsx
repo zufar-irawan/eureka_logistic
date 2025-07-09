@@ -14,7 +14,7 @@ export default function Home() {
         <section className="relative h-[600px] bg-[url('/images/Background1.jpeg')] bg-cover bg-center bg-no-repeat">
           <div className="absolute inset-0 bg-black bg-opacity-70" />
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
-            <h1 className="text-5xl font-bold mb-4">Start Your Journey with Eureka!Logistic.</h1>
+            <h1 className="text-5xl font-bold mb-4">Start Your Journey with Eureka Logistic.</h1>
             <p className="text-lg text-gray-300 max-w-2xl">
               Kami Solusi Ekspedisi Anda
             </p>
@@ -26,16 +26,16 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
             {[
               {
-                title: "Awarded Agency",
-                desc: "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+                title: "Jalur Darat",
+                desc: "Pelayanan menggunakan transportasi darat dengan unit kendaraan berbagai variasi jenis kendaraan yang telah dilengkapi GPS dan Sistem ERP dalam melayani pengiriman area Jawa dan pengiriman luar Jawa.",
               },
               {
-                title: "Free Revisions",
-                desc: "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+                title: "Jalur Laut",
+                desc: "Pelayanan menggunakan transportasi laut untuk pengiriman luar Jawa menggunakan fasilitas Less Truck Load (LTL) dan Full Truck Load (FTL) yang melayani pengaturan pengiriman atau transportasi Door To Door(DTD), Door To Port (DTP), Port To Door (PTD) dan Port To Port (PTP) seperti jenis kapal Roro, kapal Pelni, dan cargo keseluruh wilayah Indonesia.",
               },
               {
-                title: "Verified Company",
-                desc: "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+                title: "Jalur Udara",
+                desc: "Pelayanan menggunakan transportasi udara dalam pengirman luar negeri maupun dalam negeri, pengiriman kesuluruh wilayah Indonesia.",
               },
             ].map((card, idx) => (
               <div
