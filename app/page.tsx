@@ -7,7 +7,6 @@ import Footer from '@/components/Footer';
 import Branch from '@/components/Branch'
 import ServiceCards from '@/components/services';
 import Privacy from '../components/Privacy';
-import Branch from '@/components/Branch';
 import 'remixicon/fonts/remixicon.css';
 
 export default function Home() {
