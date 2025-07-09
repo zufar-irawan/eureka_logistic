@@ -18,7 +18,9 @@ const Header = () => {
                     <ul className="flex gap-6">
                         <li className="text-gray-500 hover:text-blue-600"><Link href="#">Beranda</Link></li>
                         <li className="text-gray-500 hover:text-blue-600"><Link href="#">Tentang</Link></li>
+                        <li className="text-gray-500 hover:text-blue-600"><Link href="#">Projek</Link></li>
                         <li className="text-gray-500 hover:text-blue-600"><Link href="#">Kontak</Link></li>
+                        <li className="text-gray-500 hover:text-blue-600"><Link href="/Privacy">Cabang</Link></li>
                     </ul>
                 </nav>
             </header>
