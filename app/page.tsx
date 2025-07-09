@@ -1,9 +1,12 @@
 import Header from "@/components/header";
+import ServiceCards from "@/components/services";
 
 export default function Home() {
   return (
     <>
       <Header />
+
+      <main className="pt-20">
 
       {/* Hero Section */}
       <section className="relative h-[600px] bg-[url('/images/Background1.jpeg')] bg-cover bg-center bg-no-repeat">
