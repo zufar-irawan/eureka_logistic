@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import ServiceCards from "@/components/services";
 import Privacy from "../components/Privacy";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -11,24 +12,17 @@ export default function Home() {
 
       <main className="pt-20">
         {/* Hero Section */}
-      <section
-            className="relative h-[600px] bg-cover bg-center bg-no-repeat text-white text-center px-4"
-            style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/Background1.jpeg')`,
-            }}
-          >
-            <div className="flex flex-col items-center justify-center h-full">
-              <h1 className="text-5xl font-bold mb-4">
-                Start Your Journey with Eureka!Logistic.
-              </h1>
-              <p className="text-lg text-gray-300 max-w-2xl">
-                Kami Solusi Ekspedisi Anda
-              </p>
-            </div>
+        <section className="relative h-[600px] bg-[url('/images/Background1.jpeg')] bg-cover bg-center bg-no-repeat">
+          <div className="absolute inset-0 bg-black bg-opacity-70" />
+          <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+            <h1 className="text-5xl font-bold mb-4">Start Your Journey with Eureka Logistic.</h1>
+            <p className="text-lg text-gray-300 max-w-2xl">
+              Kami Solusi Ekspedisi Anda
+            </p>
+          </div>
         </section>
 
-
-        {/* Feature Cards */}
+        {/* Feature Cards - floating tanpa bg section */}
         <section className="-mt-[100px] pb-20 relative z-20 overflow-hidden">
           <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
             {[
