@@ -1,47 +1,81 @@
-import Header from "@/components/header"
-import Footer from "@/components/Footer";
-import ServiceCards from "@/components/services";
-import Privacy from "../components/Privacy";
-import Image from "next/image";
-import Branch from "@/components/Branch";
-import { motion } from "framer-motion";
+'use client';
+
+import { useEffect, useState } from 'react';
+import Image from 'next/image';
+import Header from '@/components/header';
+import Footer from '@/components/Footer';
+import ServiceCards from '@/components/services';
+import Privacy from '../components/Privacy';
+import Branch from '@/components/Branch';
 
 export default function Home() {
+  const images = [
+    "/images/Background1.jpeg",
+    "/images/Background2.jpeg"
+  ];
+
+  {/*Transisi Image*/ }
+  const [isFirstImage, setIsFirstImage] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsFirstImage((prev) => !prev);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <Header />
 
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="relative h-[600px] bg-[url('/images/Background1.jpeg')] bg-cover bg-center bg-no-repeat">
-          <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
-            <h1 className="text-5xl font-bold mb-4">Start Your Journey with Eureka Logistic.</h1>
+        <section className="relative h-[600px] text-white text-center px-4 overflow-hidden">
+          {/* Layer Background */}
+          <div className="absolute inset-0 transition-opacity duration-1000 bg-cover bg-center"
+            style={{
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${images[0]})`,
+              opacity: isFirstImage ? 1 : 0,
+            }}
+          />
+          <div className="absolute inset-0 transition-opacity duration-1000 bg-cover bg-center"
+            style={{
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${images[1]})`,
+              opacity: isFirstImage ? 0 : 1,
+            }}
+          />
+
+          <div className="relative z-10 flex flex-col items-center justify-center h-full">
+            <h1 className="text-5xl font-bold mb-4">
+              Start Your Journey with Eureka!Logistic.
+            </h1>
             <p className="text-lg text-gray-300 max-w-2xl">
               Kami Solusi Ekspedisi Anda
             </p>
           </div>
         </section>
 
-        {/* Feature Cards - floating tanpa bg section */}
+        {/* Floating Cards */}
         <section className="-mt-[100px] pb-20 relative z-20 overflow-hidden">
           <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
             {[
               {
                 title: "Jalur Darat",
-                desc: "Pelayanan menggunakan transportasi darat dengan unit kendaraan berbagai variasi jenis kendaraan yang telah dilengkapi GPS dan Sistem ERP dalam melayani pengiriman area Jawa dan pengiriman luar Jawa.",
+                desc: "Pelayanan darat dengan berbagai jenis kendaraan dilengkapi GPS & ERP.",
               },
               {
                 title: "Jalur Laut",
-                desc: "Pelayanan menggunakan transportasi laut untuk pengiriman luar Jawa menggunakan fasilitas Less Truck Load (LTL) dan Full Truck Load (FTL) yang melayani pengaturan pengiriman atau transportasi Door To Door(DTD), Door To Port (DTP), Port To Door (PTD) dan Port To Port (PTP) seperti jenis kapal Roro, kapal Pelni, dan cargo keseluruh wilayah Indonesia.",
+                desc: "Pengiriman luar Jawa dengan kapal Roro, Pelni, cargo melalui DTD, DTP, PTD, PTP.",
               },
               {
                 title: "Jalur Udara",
-                desc: "Pelayanan menggunakan transportasi udara dalam pengirman luar negeri maupun dalam negeri, pengiriman kesuluruh wilayah Indonesia.",
+                desc: "Transportasi udara untuk pengiriman nasional & internasional.",
               },
             ].map((card, idx) => (
               <div
                 key={idx}
-                className="bg-blue-400 p-6 rounded-xl shadow-xl text-center hover:shadow-2xl transition"
+                className="bg-white p-6 rounded-xl shadow-xl text-center hover:shadow-2xl transition"
               >
                 <div className="flex justify-center mb-4">
                   <div className="bg-white p-3 rounded-full">
@@ -61,33 +95,25 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Project */}
         <section id="project" className="px-10 pt-20 pb-10">
           <div className="text-center w-full">
             <h1 className="font-bold text-2xl py-6">Our Awesome Project</h1>
             <p className="text-gray-700 pt-2 text-sm">Kami Solusi Ekspedisi Anda</p>
             <p className="text-gray-700 pt-3 text-sm w-[50%] mx-auto pb-6">
-              Pelayanan pengiriman dari dan ke seluruh indonesia
-              melalui darat, laut dan udara dengan waktu kirim cepat
-              maupun kirim regular, kirim dari gudang ke gudang,
-              kirim dari pelabuhan ke gudang atau kirim dari gudang
-              ke pelabuhan serta kirim dari pelabuhan ke pelabuhan.
+              Pengiriman ke seluruh Indonesia melalui darat, laut, dan udara dengan berbagai opsi pengiriman.
             </p>
           </div>
-
-
           <ServiceCards />
-
         </section>
 
         {/* Alamat */}
         <section id="alamat" className="py-10">
           <div className="bg-blue-500 w-full p-20">
-            <div className="flex gap-10 w-[80%] mx-auto">
+            <div className="flex gap-10 w-[80%] mx-auto flex-col md:flex-row">
               <div>
                 <Image
                   src="/images/alamat.png"
-                  alt="Alamat.png"
+                  alt="Alamat Kantor"
                   width={500}
                   height={500}
                   className="rounded-4xl"
@@ -101,8 +127,6 @@ export default function Home() {
                   Give us a Call 02187796010<br />
                   Send us a Message info@eurekalogistics.co.id</p>
               </div>
-
-
             </div>
           </div>
 
