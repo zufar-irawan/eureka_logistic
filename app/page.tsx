@@ -169,7 +169,7 @@ export default function Home() {
         {/* hook */}
         <section id="hook" className="py-10 pb-20 px-10">
           <div className='w-full'>
-            <div className='flex gap-18 w-[90%] mx-auto'>
+            <div className='flex gap-18 w-[90%] mx-auto flex-col md:flex-row'>
               <div className='py-2'>
                 <h1 className="font-bold text-2xl text-gray-800 pb-2">
                   Ayo Tunggu Apa Lagi, Gabung Bersama
@@ -197,6 +197,7 @@ export default function Home() {
                   alt='Container'
                   width={500}
                   height={500}
+                  className='rounded-2xl'
                 />
               </div>
             </div>
