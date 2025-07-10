@@ -4,19 +4,19 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Header from '@/components/header';
 import Footer from '@/components/Footer';
-import Branch from '@/components/Branch'
+import Branch from '@/components/Branch';
 import ServiceCards from '@/components/services';
 import Privacy from '../components/Privacy';
 import 'remixicon/fonts/remixicon.css';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 export default function Home() {
   const images = [
     "/images/Background1.jpeg",
-    "/images/Background2.jpeg"
+    "/images/Background2.jpeg",
   ];
 
-  {/*Transisi Image*/ }
   const [isFirstImage, setIsFirstImage] = useState(true);
 
   useEffect(() => {
@@ -34,7 +34,6 @@ export default function Home() {
       <main className="pt-20">
         {/* Hero Section */}
         <section id="beranda" className="relative h-[600px] text-white text-center px-4 overflow-hidden">
-          {/* Layer Background */}
           <div className="absolute inset-0 transition-opacity duration-1000 bg-cover bg-center"
             style={{
               backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${images[0]})`,
@@ -61,40 +60,32 @@ export default function Home() {
         {/* Floating Cards */}
         <section className="-mt-[120px] pb-10 relative z-40 overflow-hidden">
           <div className="max-w-6xl pt-5 mx-auto px-4 grid md:grid-cols-3 gap-6">
-            {[
-              {
-                title: "Jalur Darat",
-                desc: "Pelayanan darat dengan berbagai jenis kendaraan dilengkapi GPS & ERP.",
-                icon: "ri-truck-fill text-gray-800 text-xl"
-              },
-              {
-                title: "Jalur Laut",
-                desc: "Pengiriman luar Jawa dengan kapal Roro, Pelni, cargo melalui DTD, DTP, PTD, PTP.",
-                icon: "ri-ship-2-fill text-gray-800 text-xl"
-              },
-              {
-                title: "Jalur Udara",
-                desc: "Transportasi udara untuk pengiriman nasional & internasional.",
-                icon: "ri-flight-takeoff-fill text-gray-800 text-xl"
-              },
-            ].map((card, idx) => (
-              <div
-                key={idx}
-                className="
-                  bg-white p-6 rounded-xl shadow-xl 
-                  text-center transform transition 
-                  duration-300 hover:scale-110 
-                  hover:shadow-2xl
-                ">
-                <div className="flex justify-center mb-4">
-                  <div className="bg-gray-200 py-2 px-3 rounded-full">
-                    <i className={card.icon}></i>
+            {["Jalur Darat", "Jalur Laut", "Jalur Udara"].map((title, idx) => {
+              const desc = [
+                "Pelayanan darat dengan berbagai jenis kendaraan dilengkapi GPS & ERP.",
+                "Shipping outside Java by Roro, Pelni, cargo ships via DTD, DTP, PTD, PTP.",
+                "Air transportation for national & international shipments."
+              ];
+              const icon = [
+                "ri-truck-fill",
+                "ri-ship-2-fill",
+                "ri-flight-takeoff-fill"
+              ];
+              return (
+                <div
+                  key={idx}
+                  className="bg-white p-6 rounded-xl shadow-xl text-center transform transition duration-300 hover:scale-110 hover:shadow-2xl"
+                >
+                  <div className="flex justify-center mb-4">
+                    <div className="bg-gray-200 py-2 px-3 rounded-full">
+                      <i className={`${icon[idx]} text-gray-800 text-xl`}></i>
+                    </div>
                   </div>
+                  <h3 className="text-lg font-semibold mb-2">{title}</h3>
+                  <p className="text-gray-600 text-sm">{desc[idx]}</p>
                 </div>
-                <h3 className="text-lg font-semibold mb-2">{card.title}</h3>
-                <p className="text-gray-600 text-sm">{card.desc}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </section>
 
@@ -114,7 +105,12 @@ export default function Home() {
         <section id="alamat" className="py-10">
           <div className="bg-blue-500 w-full p-20">
             <div className="flex gap-10 w-[80%] mx-auto flex-col md:flex-row">
-              <div>
+              <motion.div
+                  initial={{ opacity: 0, y: 50 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.7, ease: 'easeOut' }}
+                  viewport={{ once: false, amount: 0.3 }}
+                >
                 <Image
                   src="/images/alamat.png"
                   alt="Alamat Kantor"
@@ -122,18 +118,25 @@ export default function Home() {
                   height={500}
                   className="rounded-4xl"
                 />
-              </div>
+              </motion.div>
 
-              <div className="text-white h-full my-auto">
+              <motion.div
+                className="text-white h-full my-auto"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, ease: 'easeOut' }}
+                viewport={{ once: false, amount: 0.3 }}
+              >
                 <h1 className="text-3xl font-bold py-5">Head Office</h1>
-                <p className="text-md">JI. H.Baping Raya No.100 Ciracas - Jakarta Timur<br />
-                  Odivening Hours Mon-Fri: 08:00-16:00<br />
-                  Give us a Call 02187796010<br />
-                  Send us a Message info@eurekalogistics.co.id</p>
-              </div>
+                <p className="text-md">
+                  Jl. H. Baping Raya No.100 Ciracas - Jakarta Timur<br />
+                  Opening Hours Mon–Fri: 08:00–16:00<br />
+                  Give us a Call: 02187796010<br />
+                  Send us a Message: info@eurekalogistics.co.id
+                </p>
+              </motion.div>
             </div>
           </div>
-
         </section>
 
         {/* Branch */}
@@ -149,17 +152,14 @@ export default function Home() {
         {/* Operasional */}
         <section id="operasional" className="py-10">
           <div className="w-full bg-blue-500 py-10">
-
             <div className='text-center mb-10'>
               <h3 className="text-md text-white">Opening Hours</h3>
               <h3 className="font-bold text-2xl text-white">Head Office</h3>
             </div>
-
             <div className="grid grid-cols-2 w-[50%] mx-auto text-center">
               <div>
                 <h3 className="text-xl text-gray-200">Monday - Friday</h3>
               </div>
-
               <div>
                 <h3 className="text-xl text-gray-200">08:00 - 16:00</h3>
               </div>
@@ -170,7 +170,7 @@ export default function Home() {
         {/* hook */}
         <section id="hook" className="py-10 pb-20 px-10">
           <div className='w-full'>
-            <div className='flex gap-18 w-[90%] mx-auto'>
+            <div className='flex gap-18 w-[90%] mx-auto flex-col md:flex-row'>
               <div className='py-2'>
                 <h1 className="font-bold text-2xl text-gray-800 pb-2">
                   Ayo Tunggu Apa Lagi, Gabung Bersama
@@ -184,10 +184,7 @@ export default function Home() {
                   di Indonesia
                 </p>
 
-                <Link href={'#'} className='
-                  text-white bg-blue-500 px-15 py-4 rounded-xl
-                  transition-all ease-in-out hover:bg-blue-700
-                '>
+                <Link href={'#'} className='text-white bg-blue-500 px-6 py-3 rounded-xl transition-all duration-300 ease-in-out hover:bg-blue-700 w-full sm:w-auto block text-center'>
                   Contact Us
                 </Link>
               </div>
