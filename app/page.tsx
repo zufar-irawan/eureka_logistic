@@ -6,7 +6,6 @@ import Header from '@/components/header';
 import Footer from '@/components/Footer';
 import Branch from '@/components/Branch';
 import ServiceCards from '@/components/services';
-import Privacy from '../components/Privacy';
 import 'remixicon/fonts/remixicon.css';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -171,6 +170,7 @@ export default function Home() {
         <section id="hook" className="py-10 pb-20 px-10">
           <div className='w-full'>
             <div className='flex gap-18 w-[90%] mx-auto flex-col md:flex-row'>
+            <div className='flex gap-18 w-[90%] mx-auto flex-col md:flex-row'>
               <div className='py-2'>
                 <h1 className="font-bold text-2xl text-gray-800 pb-2">
                   Ayo Tunggu Apa Lagi, Gabung Bersama
@@ -184,7 +184,10 @@ export default function Home() {
                   di Indonesia
                 </p>
 
-                <Link href={'#'} className='text-white bg-blue-500 px-6 py-3 rounded-xl transition-all duration-300 ease-in-out hover:bg-blue-700 w-full sm:w-auto block text-center'>
+                <Link href={'#alamat'} className='
+                  text-white bg-blue-500 px-15 py-4 rounded-xl
+                  transition-all ease-in-out hover:bg-blue-700
+                '>
                   Contact Us
                 </Link>
               </div>
@@ -195,6 +198,7 @@ export default function Home() {
                   alt='Container'
                   width={500}
                   height={500}
+                  className='rounded-2xl'
                 />
               </div>
             </div>

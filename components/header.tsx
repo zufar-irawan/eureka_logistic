@@ -25,11 +25,12 @@ const Header = () => {
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex gap-6">
-                <Link className="text-gray-500 hover:text-blue-600" href="#beranda">Beranda</Link>
-                <Link className="text-gray-500 hover:text-blue-600" href="#project">Service</Link>
-                <Link className="text-gray-500 hover:text-blue-600" href="#alamat">Kontak</Link>
-                <Link className="text-gray-500 hover:text-blue-600" href="#branch">Cabang</Link>
-                <Link className="text-gray-500 hover:text-blue-600" href="#operasional">Operasional</Link>
+                <Link className="text-gray-500 hover:text-blue-600" href="/#beranda">Beranda</Link>
+                <Link className="text-gray-500 hover:text-blue-600" href="/#project">Service</Link>
+                <Link className="text-gray-500 hover:text-blue-600" href="/#alamat">Kontak</Link>
+                <Link className="text-gray-500 hover:text-blue-600" href="/#branch">Cabang</Link>
+                <Link className="text-gray-500 hover:text-blue-600" href="/#operasional">Operasional</Link>
+                <Link className="text-gray-500 hover:text-blue-600" href="/Privacy">Privacy</Link>
             </nav>
 
             <div className="md:hidden">
@@ -48,11 +49,12 @@ const Header = () => {
                         transition={{ duration: 0.3 }}
                     >
                         <div className="flex flex-col items-center gap-4 py-4">
-                            <Link className="text-gray-500 hover:text-blue-600" href="#beranda" onClick={toggleMenu}>Beranda</Link>
-                            <Link className="text-gray-500 hover:text-blue-600" href="#project" onClick={toggleMenu}>Service</Link>
-                            <Link className="text-gray-500 hover:text-blue-600" href="#alamat" onClick={toggleMenu}>Kontak</Link>
-                            <Link className="text-gray-500 hover:text-blue-600" href="#branch" onClick={toggleMenu}>Cabang</Link>
-                            <Link className="text-gray-500 hover:text-blue-600" href="#operasional" onClick={toggleMenu}>Operasional</Link>
+                            <Link className="text-gray-500 hover:text-blue-600" href="/#beranda" onClick={toggleMenu}>Beranda</Link>
+                            <Link className="text-gray-500 hover:text-blue-600" href="/#project" onClick={toggleMenu}>Service</Link>
+                            <Link className="text-gray-500 hover:text-blue-600" href="/#alamat" onClick={toggleMenu}>Kontak</Link>
+                            <Link className="text-gray-500 hover:text-blue-600" href="/#branch" onClick={toggleMenu}>Cabang</Link>
+                            <Link className="text-gray-500 hover:text-blue-600" href="/#operasional" onClick={toggleMenu}>Operasional</Link>
+                            <Link className="text-gray-500 hover:text-blue-600" href="/Privacy" onClick={toggleMenu}>Privacy</Link>
                         </div>
                     </motion.div>
                 )}
