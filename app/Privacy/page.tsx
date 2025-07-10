@@ -1,14 +1,15 @@
-import Privacy from '@/components/Privacy'
+'use client';
+
 import Header from '@/components/header';
 import Footer from '@/components/Footer';
-import { div } from 'framer-motion/client';
+import Privacy from '@/components/Privacy';
 
 export default function PrivacyPage() {
   return (
     <div>
-    <Header/>
-    <Privacy/>
-    <Footer/>
+      <Header />
+      <Privacy />
+      <Footer />
     </div>
   );
 }

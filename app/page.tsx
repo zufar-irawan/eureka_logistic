@@ -6,7 +6,6 @@ import Header from '@/components/header';
 import Footer from '@/components/Footer';
 import Branch from '@/components/Branch'
 import ServiceCards from '@/components/services';
-import Privacy from '../components/Privacy';
 import 'remixicon/fonts/remixicon.css';
 import Link from 'next/link';
 
