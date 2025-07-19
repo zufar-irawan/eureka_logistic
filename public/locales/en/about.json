@@ -1,0 +1,71 @@
+{
+    "About": {
+      "hero": {
+        "smallTitle": "About Us",
+        "bigTitle": "Our <span>{{highlightedWord}}</span> & Journey",
+        "highlightedWord": "Story",
+        "subtitle": "Discover how we became a trusted logistics partner across Indonesia"
+      },
+      "title": "About Eureka Logistics",
+      "subtitle": "Your Trusted Logistics Partner",
+      "tabs": {
+        "about": "About",
+        "mission": "Vision & Mission"
+      },
+      "about": {
+        "title": "About Eureka Logistics",
+        "content": [
+          "PT Eureka Logistics and its group are part of PT Penerbit Erlangga (established in 1952). Founded in 2011, Eureka Logistics began its logistics operations by distributing PT Penerbit Erlangga's products to various regions across Indonesia, utilizing both land and sea transportation routes.",
+          "Over time, PT Eureka Logistics has grown by providing logistics services to various companies throughout Indonesia. To support this expansion, PT Eureka Logistics has been continuously increasing its fleet and actively collaborating with many trusted logistics companies in Indonesia.",
+          "PT Eureka Logistics understands the importance of logistics in business operations, including timely delivery, product packaging security, and effectiveness in coordinating with all related parties.",
+          "Currently, Eureka Logistics operates seven branch offices located in Bandung, Semarang, Yogyakarta, Surabaya, Palembang, Pekanbaru, and Medan. For areas beyond these locations, we coordinate through our group network, PT Penerbit Erlangga, which has branches nationwide, as well as through our reliable logistics partners.",
+          "We implement the Kaizen philosophy within our company; we are committed to continuous improvement and are always open to feedback and suggestions from our partners and clients who entrust us with their product deliveries. This implementation reflects our dedication to providing the best possible service to all of our customers."
+        ],
+        "stats": {
+          "founded": {
+            "value": "2011",
+            "label": "Founded"
+          },
+          "branches": {
+            "value": "7",
+            "label": "Branch Offices"
+          },
+          "groupExperience": {
+            "value": "1952",
+            "label": "Group Established"
+          }
+        }
+      },
+      "vision": {
+        "title": "Vision",
+        "content": "To become a reliable, secure, and timely logistics company with a customer-oriented approach and a network that spans both domestic and international markets."
+      },
+      "mission": {
+        "title": "Mission",
+        "items": [
+          "Building loyal, professional human resources committed to customer satisfaction",
+          "Building and developing transportation fleet, warehousing with integrated and reliable information systems",
+          "Building mutually supportive relationships with trusted partners",
+          "Providing excellent service (on time, right quantity and right quality)"
+        ]
+      },
+      "philosophy": {
+        "title": "Our Philosophy",
+        "subtitle": "Continuous improvement through Kaizen methodology",
+        "items": {
+          "commitment": {
+            "title": "Commitment",
+            "description": "Dedicated to customer satisfaction through reliable service"
+          },
+          "improvement": {
+            "title": "Improvement",
+            "description": "Continuously enhancing processes for better efficiency"
+          },
+          "excellence": {
+            "title": "Excellence",
+            "description": "Delivering premium logistics solutions with precision"
+          }
+        }
+      }
+    }
+}

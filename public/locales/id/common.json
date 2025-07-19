@@ -1,0 +1,818 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Home",
+      "about": "Tentang",
+      "services": "Layanan",
+      "products": "Produk",
+      "operational": "Operasional",
+      "contact": "Kontak"
+    },
+    "language": {
+      "current": "ID",
+      "options": {
+        "id": "ID",
+        "en": "EN"
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "PT. EUREKA LOGISTICS",
+      "copyright": "© 2006 - Eureka Logistics. ",
+      "privacyPolicy": "Kebijakan Privasi"
+    },
+    "industryPartners": {
+      "title": "Mitra Industri",
+      "partners": [
+        {
+          "name": "Eureka Bookhouse",
+          "alt": "Bookhouse Eureka"
+        },
+        {
+          "name": "Jaja.id",
+          "alt": "Jaja.id"
+        },
+        {
+          "name": "Jajato",
+          "alt": "Jajato"
+        },
+        {
+          "name": "Master Diskon",
+          "alt": "Master Diskon"
+        },
+        {
+          "name": "Raja Cepat",
+          "alt": "Raja Cepat"
+        },
+        {
+          "name": "Katarasa",
+          "alt": "Katarasa"
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Logistik Eureka",
+    "subtitle": "Mitra logistik tepercaya Anda",
+    "description": "Solusi logistik terkemuka untuk perusahaan yang memproduksi dan mendistribusikan produk mereka di seluruh Indonesia dengan teknologi modern.",
+    "cta": {
+      "primary": "Mulai",
+      "secondary": "Pelajari lebih lanjut"
+    },
+    "navigation": {
+      "previous": "Sebelumnya",
+      "next": "Berikutnya",
+      "pause": "Berhenti sebentar",
+      "play": "Bermain"
+    }
+  },
+  "branchSlider": {
+    "title": "Cabang",
+    "contact": {
+      "tel": "Tel:",
+      "email": "E-mail:",
+      "wa": "Whatsapp:"
+    },
+    "mapTitle": "Google Maps",
+    "branches": [
+      {
+        "id": 1,
+        "title": "Semarang",
+        "address": "Jl. ",
+        "tel": "+62247621968",
+        "email": "infosmg@eurekalogistics.co.id",
+        "wa": "6281293941037"
+      },
+      {
+        "id": 2,
+        "title": "Bandung",
+        "address": "Jl. ",
+        "tel": "+62227507782",
+        "email": "infobdg@eurekalogistics.co.id",
+        "wa": "6287811048004"
+      },
+      {
+        "id": 3,
+        "title": "Surabaya",
+        "address": "Jl. ",
+        "tel": "+6231864620",
+        "email": "infosby@eurekalogistics.co.id",
+        "wa": "6282244696077"
+      },
+      {
+        "id": 4,
+        "title": "Yogyakarta",
+        "address": "Jl. ",
+        "tel": "+62247621968",
+        "email": "infosmg@eurekalogistics.co.id",
+        "wa": "6281293941037"
+      }
+    ]
+  },
+  "branchHero": {
+    "badge": "Kantor cabang kami",
+    "title": "Cabang kami",
+    "description": "Temukan kantor cabang terdekat untuk layanan logistik yang lebih personal"
+  },
+  "whyChooseUs": {
+    "title": "Mengapa Memilih Kami?",
+    "subtitle": "Solusi logistik terbaik untuk kebutuhan distribusi bisnis Anda",
+    "features": [
+      {
+        "title": "Armada modern",
+        "description": "Kami memiliki armada transportasi terbaru yang terawat baik untuk memastikan keamanan pengiriman Anda"
+      },
+      {
+        "title": "Sistem tepercaya",
+        "description": "Didukung oleh sistem logistik terintegrasi yang andal dan tim profesional yang berpengalaman"
+      },
+      {
+        "title": "Layanan 24/7",
+        "description": "Kami siap membantu kapan pun Anda membutuhkan solusi logistik"
+      }
+    ]
+  },
+  "ctaSection": {
+    "badge": "Tepercaya & profesional",
+    "title": {
+      "line1": "Tunggu apa lagi, bergabunglah",
+      "line2": "Logistik Eureka",
+      "exclamation": "!"
+    },
+    "description": "Solusi logistik terkemuka untuk perusahaan yang memproduksi dan mendistribusikan produk mereka di seluruh Indonesia dengan teknologi modern.",
+    "services": [
+      {
+        "id": 1,
+        "title": "Pengiriman Kontainer",
+        "description": "Solusi pengiriman kontainer yang efisien dan andal"
+      },
+      {
+        "id": 2,
+        "title": "Pergudangan",
+        "description": "Gudang modern dengan sistem manajemen terintegrasi"
+      },
+      {
+        "id": 3,
+        "title": "Distribusi",
+        "description": "Jaringan distribusi yang luas di seluruh Indonesia"
+      },
+      {
+        "id": 4,
+        "title": "Rantai pasokan",
+        "description": "Manajemen rantai pasokan yang optimal dan efektif"
+      },
+      {
+        "id": 5,
+        "title": "Layanan Pengangkutan",
+        "description": "Layanan Lahan, Laut, dan Udara Pengangkutan Udara"
+      },
+      {
+        "id": 6,
+        "title": "Solusi Logistik",
+        "description": "Solusi logistik ujung ke ujung untuk bisnis Anda"
+      }
+    ],
+    "valueProposition": [
+      {
+        "icon": "🚛",
+        "title": "Pengiriman cepat",
+        "description": "Jaringan distribusi yang luas untuk pengiriman tepat waktu"
+      },
+      {
+        "icon": "🏢",
+        "title": "Gudang Modern",
+        "description": "Fasilitas penyimpanan dengan teknologi mutakhir"
+      },
+      {
+        "icon": "🔒",
+        "title": "Keamanan yang Dijamin",
+        "description": "Sistem keamanan berlapis-lapis untuk melindungi barang Anda"
+      }
+    ],
+    "buttons": {
+      "contact": "Hubungi kami",
+      "learnServices": "Pelajari tentang layanan"
+    }
+  },
+  "sections": {
+    "about": {
+      "title": "Tentang kami",
+      "subtitle": "Mitra logistik tepercaya Anda",
+      "description": "Pt. ",
+      "features": [
+        "Jaringan nasional yang luas",
+        "Armada dan Teknologi Modern",
+        "Tim profesional",
+        "Dukungan pelanggan 24/7"
+      ]
+    },
+    "services": {
+      "title": "Layanan kami",
+      "subtitle": "Solusi Logistik Komprehensif",
+      "description": "Kami menyediakan layanan logistik ujung ke ujung untuk memenuhi semua kebutuhan bisnis Anda",
+      "serviceList": [
+        {
+          "title": "Angkutan",
+          "description": "Layanan transportasi yang andal dengan armada modern"
+        },
+        {
+          "title": "Pergudangan",
+          "description": "Fasilitas penyimpanan yang aman dengan sistem manajemen canggih"
+        },
+        {
+          "title": "Distribusi",
+          "description": "Jaringan distribusi yang efisien di seluruh Indonesia"
+        },
+        {
+          "title": "Manajemen rantai pasokan",
+          "description": "Optimalisasi Rantai Pasokan Komprehensif"
+        }
+      ]
+    },
+    "products": {
+      "title": "Produk kami",
+      "subtitle": "Solusi Logistik Inovatif",
+      "description": "Temukan berbagai produk kami yang dirancang untuk merampingkan operasi logistik Anda"
+    },
+    "operational": {
+      "title": "Keunggulan operasional",
+      "subtitle": "Operasi yang ramping",
+      "description": "Standar operasional kami memastikan efisiensi dan keandalan dalam setiap solusi logistik"
+    }
+  },
+  "navigation": {
+    "services": "Layanan",
+    "about": "Tentang",
+    "branches": "Cabang",
+    "contact": "Kontak",
+    "home": "Rumah",
+    "products": "Produk",
+    "operational": "Operasional"
+  },
+  "common": {
+    "readMore": "Baca selengkapnya",
+    "learnMore": "Pelajari lebih lanjut",
+    "getStarted": "Mulai",
+    "viewAll": "Lihat semua",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "loading": "Memuat...",
+    "error": "Kesalahan",
+    "retry": "Mencoba kembali",
+    "close": "Menutup",
+    "open": "Membuka",
+    "menu": "Menu",
+    "search": "Mencari",
+    "filter": "Menyaring",
+    "sort": "Menyortir",
+    "save": "Menyimpan",
+    "cancel": "Membatalkan",
+    "submit": "Kirim",
+    "edit": "Edit",
+    "delete": "Menghapus",
+    "add": "Menambahkan",
+    "remove": "Menghapus",
+    "select": "Memilih",
+    "clear": "Jernih",
+    "apply": "Menerapkan",
+    "reset": "Mengatur ulang",
+    "confirm": "Mengonfirmasi",
+    "back": "Kembali",
+    "forward": "Maju",
+    "up": "Ke atas",
+    "down": "Turun",
+    "left": "Kiri",
+    "right": "Benar"
+  },
+  "contact": {
+    "intro": {
+      "badge": "Mari kita berkolaborasi",
+      "title": "Hubungi kami",
+      "titleHighlight": "Kita",
+      "subtitle": "Kami siap menjadi mitra tepercaya Anda untuk solusi logistik Anda"
+    },
+    "quickContact": {
+      "title": "Cara mudah untuk menghubungi kami",
+      "subtitle": "Pilih metode komunikasi yang paling nyaman untuk Anda",
+      "methods": {
+        "phone": {
+          "title": "Telepon",
+          "subtitle": "Hubungi kami secara langsung",
+          "value": "021-87796010",
+          "action": "Telp: 02187796010"
+        },
+        "email": {
+          "title": "E-mail",
+          "subtitle": "Kirimi kami email",
+          "value": "info@eurekalogistic.co.id",
+          "action": "mailto: info@eurekalogistics.co.id"
+        },
+        "location": {
+          "title": "Lokasi",
+          "subtitle": "Kunjungi kantor kami",
+          "value": "Jl. ",
+          "action": "https://maps.app.goo.gl/dodzvqtmrv4fw74d6"
+        }
+      }
+    },
+    "office": {
+      "title": "Kantor kami",
+      "subtitle": "Kunjungi kantor pusat kami untuk konsultasi langsung",
+      "headOffice": "Kantor pusat",
+      "location": "Jakarta Timur",
+      "companyName": "Logistik Eureka",
+      "details": {
+        "address": {
+          "label": "Alamat",
+          "value": "Jl. "
+        },
+        "phone": {
+          "label": "Telepon",
+          "value": "021-87796010"
+        },
+        "email": {
+          "label": "E-mail",
+          "value": "info@eurekalogistic.co.id"
+        }
+      }
+    }
+  },
+  "meta": {
+    "title": "Eureka Logistics - Mitra Logistik Tepercaya Anda",
+    "description": "Solusi logistik terkemuka untuk perusahaan yang memproduksi dan mendistribusikan produk mereka di seluruh Indonesia dengan teknologi modern dan layanan profesional.",
+    "keywords": "Logistik, Transportasi, Pergudangan, Distribusi, Rantai Pasokan, Indonesia, Pengangkutan, Pengiriman"
+  },
+  "privacyPolicy": {
+    "title": "KEBIJAKAN PRIVASI",
+    "subtitle": "Ketentuan perlindungan data pribadi Anda",
+    "sections": [
+      {
+        "id": "pendahuluan",
+        "title": "PENDAHULUAN",
+        "content": "Selamat datang di platform Eureka Logistics, Kebijakan Privasi ini (\"Kebijakan Privasi\" atau \"Kebijakan\") dirancang untuk membantu Anda memahami bagaimana kami mengumpulkan, menggunakan, mengungkapkan dan/atau mengolah data pribadi yang telah Anda percayakan kepada kami dan/atau kami miliki tentang Anda, baik di masa sekarang maupun di masa mendatang, serta untuk membantu Anda membuat keputusan yang tepat sebelum memberikan data pribadi Anda kepada kami. Silakan baca Kebijakan Privasi ini dengan cermat. Apabila Anda memiliki pertanyaan tentang informasi ini atau praktik privasi kami, silakan lihat bagian yang berjudul \"Pertanyaan, Masalah atau Keluhan? Hubungi Kami\" di akhir Kebijakan Privasi ini.\n\n\"Data Pribadi\" berarti data, baik benar maupun tidak, tentang individu yang dapat diidentifikasi dari data tersebut, atau dari data dan informasi lainnya yang dapat atau kemungkinan dapat diakses oleh suatu organisasi. Contoh umum data pribadi dapat mencakup nama, nomor identifikasi dan informasi kontak.\n\nDengan menggunakan Layanan, mendaftarkan akun pada kami, mengunjungi situs web kami, atau mengakses Layanan, Anda mengakui dan setuju bahwa Anda menerima praktik, persyaratan, dan/atau kebijakan yang diuraikan dalam Kebijakan Privasi ini, dan Anda dengan ini mengizinkan kami untuk mengumpulkan, menggunakan, mengungkapkan dan/atau mengolah data pribadi Anda seperti yang dijelaskan di sini. APABILA ANDA TIDAK MENGIZINKAN PENGOLAHAN DATA PRIBADI ANDA SEPERTI YANG DIJELASKAN DALAM KEBIJAKAN PRIVASI INI, MOHON JANGAN MENGGUNAKAN LAYANAN KAMI ATAU MENGAKSES SITUS WEB KAMI. Apabila kami mengubah Kebijakan Privasi kami, kami akan memposting perubahan tersebut atau Kebijakan Privasi yang telah diubah pada situs web kami. Kami berhak untuk mengubah Kebijakan Privasi ini setiap saat."
+      },
+      {
+        "id": "kapan_mengumpulkan_data",
+        "title": "KAPAN EUREKA LOGISTICS MENGUMPULKAN DATA PRIBADI?",
+        "content": "Kami akan/mungkin mengumpulkan data pribadi Anda:\n\n- saat Anda mendaftar dan/atau menggunakan Layanan atau Situs kami, atau membuka sebuah akun dengan kami;\n- saat Anda membuat perjanjian atau memberikan dokumen atau informasi lainnya sehubungan dengan interaksi Anda dengan kami, atau saat Anda menggunakan produk dan layanan kami;\n- saat Anda mengirimkan formulir apapun, termasuk, tetapi tidak terbatas pada, formulir permohonan atau formulir lainnya yang berkaitan dengan produk dan layanan kami, baik secara online maupun dalam bentuk fisik;\n- saat Anda menggunakan layanan elektronik kami, atau berinteraksi dengan kami melalui aplikasi kami atau menggunakan layanan di situs web kami. Ini termasuk, dengan tidak terbatas pada, melalui cookies yang mungkin kami gunakan saat Anda berinteraksi dengan aplikasi atau situs web kami;\n- saat Anda berinteraksi dengan kami, seperti melalui sambungan telepon (yang mungkin direkam), surat, faks, pertemuan tatap muka, platform media sosial dan email;\n- saat Anda mengirimkan data pribadi Anda kepada kami dengan alasan apapun;\n- saat Anda melakukan transaksi melalui Layanan kami;\n- saat Anda menyampaikan kritik dan saran atau keluhan kepada kami;\n- saat Anda mendaftar untuk suatu kontes;\n\nSaat Anda mengunjungi, menggunakan atau berinteraksi dengan aplikasi mobile atau Situs kami, kami mungkin mengumpulkan informasi tertentu secara otomatis atau pasif dengan menggunakan berbagai teknologi, di mana teknologi tersebut mungkin diunduh ke perangkat Anda dan mungkin menetapkan atau mengubah pengaturan pada perangkat Anda. Informasi yang kami kumpulkan dapat termasuk, dengan tidak terbatas pada, alamat Internet Protocol (IP), sistem operasi komputer/perangkat mobile, jenis perangkat mobile, karakteristik perangkat mobile, unique device identifier (UDID) atau mobile equipment identifier (MEID) untuk perangkat mobile Anda, alamat situs perujuk (jika ada), dan halaman yang Anda kunjungi pada situs web dan aplikasi mobile kami serta jumlah kunjungan. Kami hanya dapat mengumpulkan, menggunakan, mengungkapkan dan/atau mengolah informasi ini untuk Tujuan (didefinisikan di bawah).\n\nAplikasi mobile kami mungkin mengumpulkan informasi yang tepat tentang lokasi perangkat mobile Anda dengan menggunakan teknologi seperti GPS, Wi-Fi, dsb. Kami mengumpulkan, menggunakan, mengungkapkan dan/atau mengolah informasi ini untuk satu Tujuan atau lebih termasuk, dengan tidak terbatas pada, layanan berbasis lokasi yang Anda minta atau untuk mengirimkan konten yang relevan dengan Anda berdasarkan lokasi Anda atau untuk memungkinkan Anda berbagi lokasi Anda dengan Pengguna lainnya sebagai bagian dari layanan aplikasi mobile kami. Untuk kebanyakan perangkat mobile, Anda dapat menarik izin Anda untuk kami memperoleh informasi tentang lokasi Anda ini melalui pengaturan perangkat Anda. Apabila Anda memiliki pertanyaan tentang bagaimana cara menonaktifkan layanan lokasi perangkat mobile Anda, silakan hubungi penyedia layanan perangkat mobile atau produsen perangkat Anda."
+      },
+      {
+        "id": "data_pribadi_dikumpulkan",
+        "title": "DATA PRIBADI APA YANG AKAN DIKUMPULKAN OLEH EUREKA LOGISTICS?",
+        "content": "Data pribadi yang mungkin dikumpulkan Eureka Logistics termasuk tetapi tidak terbatas pada:\n\n- nama;\n- alamat email;\n- nomor telepon;\n- tanggal lahir;\n- jenis kelamin;\n- alamat tagihan;\n- rekening bank dan informasi pembayaran;\n- informasi lain apapun tentang Pengguna saat Pengguna mendaftarkan diri untuk menggunakan Layanan atau situs web kami, dan saat Pengguna menggunakan Layanan atau situs web, serta informasi yang berkaitan dengan bagaimana Pengguna menggunakan Layanan atau situs web kami;\n- seluruh data tentang konten yang digunakan Pengguna.\n\nApabila Anda tidak ingin kami mengumpulkan informasi/data pribadi yang disebutkan di atas, Anda dapat memilih keluar setiap saat dengan memberitahu Petugas Perlindungan Data kami secara tertulis tentang hal tersebut. Informasi lebih lanjut tentang memilih keluar dapat ditemukan di bagian di bawah ini yang berjudul \"Bagaimana Anda dapat memilih keluar, menghapus, meminta akses atau mengubah informasi yang telah Anda berikan kepada kami?\". Akan tetapi harap diperhatikan bahwa memilih keluar dari kami mengumpulkan data pribadi Anda atau menarik izin Anda untuk kami mengumpulkan, menggunakan atau mengolah data pribadi Anda dapat memengaruhi penggunaan Layanan oleh Anda."
+      },
+      {
+        "id": "membuat_akun",
+        "title": "MEMBUAT AKUN",
+        "content": "Untuk menggunakan fungsi tertentu dari Layanan, Anda harus membuat akun pengguna yang mengharuskan Anda untuk menyerahkan data pribadi tertentu. Saat Anda mendaftar dan membuat akun, kami mewajibkan Anda untuk memberikan nama dan alamat email Anda serta nama pengguna yang Anda pilih kepada kami. Kami juga menanyakan informasi tertentu tentang diri Anda seperti nomor telepon, alamat email, alamat pengiriman, identifikasi foto, rincian rekening bank, umur, tanggal lahir, jenis kelamin dan minat Anda. Setelah mengaktifkan akun, Anda akan memilih nama pengguna dan kata sandi. Nama pengguna dan kata sandi Anda akan digunakan agar Anda dapat mengakses dan mengelola akun Anda dengan aman."
+      },
+      {
+        "id": "melihat_halaman_web",
+        "title": "MELIHAT HALAMAN WEB",
+        "content": "Sama seperti kebanyakan situs web, komputer Anda mengirimkan informasi yang mungkin termasuk data pribadi tentang Anda yang dicatat oleh server web saat Anda menjelajahi Situs kami. Ini biasanya termasuk dengan tidak terbatas pada alamat IP komputer, sistem operasi, nama/versi peramban Anda, halaman web perujuk, halaman yang diminta, tanggal/waktu, dan terkadang \"cookie\" (yang dapat dinonaktifkan dengan menggunakan preferensi peramban Anda) guna membantu situs mengingat kunjungan terakhir Anda. Apabila Anda login, informasi ini dikaitkan dengan akun pribadi Anda. Informasi juga disertakan dalam statistik anonim untuk memungkinkan kami memahami bagaimana pengunjung menggunakan situs kami."
+      },
+      {
+        "id": "cookies",
+        "title": "COOKIES",
+        "content": "Dari waktu ke waktu kami mungkin mengimplementasikan \"cookies\" atau fitur lainnya guna memungkinkan kami atau pihak ketiga untuk mengumpulkan atau berbagi informasi yang akan membantu kami meningkatkan Situs kami dan Layanan yang kami tawarkan, atau membantu kami menawarkan layanan dan fitur baru. \"Cookies\" adalah pengidentifikasi yang kami transfer ke komputer atau perangkat lunak Anda yang memungkinkan kami mengenali komputer atau perangkat Anda dan memberi tahu kami bagaimana dan kapan Layanan atau situs web digunakan atau dikunjungi, oleh berapa banyak orang serta melacak pergerakan dalam situs web kami. Kami dapat menautkan informasi cookie ke data pribadi. Cookies juga tertaut pada informasi tentang barang yang telah Anda pilih untuk dibeli dan halaman yang telah Anda lihat. Informasi ini misalnya digunakan untuk memantau keranjang belanja Anda. Cookies juga digunakan untuk mengirimkan konten yang sesuai dengan minat Anda dan memantau penggunaan situs web."
+      },
+      {
+        "id": "melihat_konten_iklan",
+        "title": "MELIHAT DAN MENGUNDUH KONTEN DAN IKLAN",
+        "content": "Sama seperti ketika menjelajahi halaman web, saat Anda melihat konten dan iklan serta mengakses perangkat lunak lainnya di Situs kami atau melalui Layanan, sebagian dari informasi yang sama dikirimkan kepada kami (termasuk, dengan tidak terbatas pada, Alamat IP, sistem operasi, dsb.); tetapi bukannya tentang berapa kali halaman dilihat, komputer Anda mengirimkan informasi kepada kami tentang konten, iklan yang dilihat dan/atau perangkat lunak yang dipasang oleh Layanan dan situs web dan waktu."
+      },
+      {
+        "id": "layanan",
+        "title": "LAYANAN",
+        "content": "Kami menyediakan dukungan layanan pelanggan melalui email, SMS dan formulir umpan balik. Dalam rangka menyediakan dukungan pelanggan, kami akan meminta alamat email Anda dan nomor ponsel Anda. Kami hanya akan menggunakan informasi yang diterima dari permintaan dukungan pelanggan, termasuk, dengan tidak terbatas pada, alamat email, untuk layanan dukungan pelanggan dan kami tidak mengalihkan atau membagikan informasi ini dengan pihak ketiga mana pun."
+      },
+      {
+        "id": "survei",
+        "title": "SURVEI",
+        "content": "Dari waktu ke waktu, kami mungkin meminta informasi dari Pengguna melalui survei. Partisipasi dalam survei ini sepenuhnya bersifat sukarela dan karenanya Anda memiliki pilihan untuk mengungkapkan informasi Anda kepada kami atau tidak. Informasi yang diminta dapat mencakup, dengan tidak terbatas pada, informasi kontak (seperti alamat email Anda), dan informasi demografis (seperti minat atau tingkat usia). Informasi survei akan digunakan untuk tujuan memantau atau meningkatkan penggunaan dan kepuasan Layanan serta tidak akan dialihkan ke pihak ketiga, selain kontraktor kami yang membantu kami mengelola atau menindaklanjuti survei."
+      },
+      {
+        "id": "penggunaan_informasi",
+        "title": "BAGAIMANA KAMI MENGGUNAKAN INFORMASI YANG ANDA BERIKAN KEPADA KAMI?",
+        "content": "Kami dapat mengumpulkan, menggunakan, mengungkapkan dan/atau mengolah data pribadi Anda untuk satu atau lebih dari tujuan-tujuan berikut ini:\n\n- mempertimbangkan dan/atau mengolah aplikasi/transaksi Anda dengan kami atau transaksi maupun komunikasi Anda dengan pihak ketiga melalui Layanan;\n- mengelola, mengoperasikan, menyediakan dan/atau mengurus penggunaan dan/atau akses Anda ke Layanan kami dan situs web kami, serta hubungan Anda dan akun pengguna Anda dengan kami;\n- mengelola, mengoperasikan, mengurus, menyediakan kepada Anda dan memfasilitasi pengadaan Layanan kami, termasuk, dengan tidak terbatas pada, mengingat preferensi Anda;\n- menyesuaikan pengalaman Anda melalui Layanan dengan menampilkan konten sesuai dengan minat dan preferensi Anda, menyediakan metode yang lebih cepat untuk Anda mengakses akun Anda dan mengirimkan informasi kepada kami serta mengizinkan kami untuk menghubungi Anda, jika perlu;\n- menanggapi, mengolah, berurusan dengan atau menyelesaikan transaksi dan/atau memenuhi permintaan Anda untuk produk dan layanan tertentu serta memberi tahu Anda tentang masalah layanan dan tindakan akun yang tidak lazim;\n- memberlakukan Persyaratan Layanan atau perjanjian lisensi pengguna akhir apapun yang berlaku;\n- melindungi keselamatan pribadi dan hak, milik atau keselamatan pihak lainnya;\n- untuk identifikasi dan/atau verifikasi;\n- mempertahankan dan memberikan setiap pembaruan perangkat lunak dan/atau pembaruan lainnya serta dukungan yang mungkin diperlukan dari waktu ke waktu untuk memastikan kelancaran Layanan kami;\n- berurusan dengan atau memfasilitasi layanan pelanggan, melaksanakan instruksi Anda, berurusan dengan atau menanggapi setiap pertanyaan yang diajukan oleh (atau konon diajukan oleh) Anda atau atas nama Anda;\n- menghubungi Anda atau berkomunikasi dengan Anda melalui panggilan telepon, pesan teks dan/atau pesan faks, email dan/atau surat pos atau cara lainnya untuk tujuan mengurus dan/atau mengelola hubungan Anda dengan kami atau penggunaan Layanan kami oleh Anda;\n- memberi tahu Anda saat Pengguna lain telah mengirimkan pesan pribadi kepada Anda atau memposting komentar untuk Anda di Situs;\n- mengadakan kegiatan penelitian, analisis dan pengembangan (termasuk, tetapi tidak terbatas pada, analisis data, survei, pengembangan produk dan layanan dan/atau pembuatan profil), untuk menganalisis bagaimana Anda menggunakan Layanan kami, meningkatkan Layanan atau produk kami dan/atau meningkatkan pengalaman pelanggan Anda;\n- memungkinkan audit dan survei untuk, antara lain, memvalidasi ukuran dan komposisi audiens sasaran kami, serta memahami pengalaman mereka dengan Layanan Eureka Logistics;\n- apabila Anda memberikan persetujuan Anda sebelumnya kepada kami untuk pemasaran dan dalam hal ini, untuk mengirimkan kepada Anda surat pos, email, layanan berbasis lokasi atau kalau tidak, informasi dan materi pemasaran dan promosi yang berkaitan dengan produk dan/atau layanan;\n- mengaudit Layanan kami;\n- mencegah atau menyelidiki setiap penipuan, kegiatan yang melanggar hukum, pembiaran atau kesalahan, baik yang berhubungan dengan penggunaan Layanan kami oleh Anda atau setiap hal lain apapun yang timbul dari hubungan Anda dengan kami;\n- menyimpan, menyelenggarakan, membuat cadangan (baik untuk pemulihan setelah bencana atau hal lainnya) data pribadi Anda;\n- setiap tujuan lain yang akan kami beritahukan kepada Anda pada saat memperoleh persetujuan Anda.\n\nKarena tujuan kami akan/mungkin mengumpulkan, menggunakan, mengungkapkan atau mengolah data pribadi Anda tergantung pada situasi yang dihadapi, tujuan tersebut mungkin tidak tertera di atas. Akan tetapi, kami akan memberi tahu Anda tentang tujuan lain semacam itu pada saat memperoleh persetujuan Anda."
+      },
+      {
+        "id": "berbagi_informasi",
+        "title": "BERBAGI INFORMASI DARI LAYANAN",
+        "content": "Layanan kami memungkinkan Pengguna untuk berbagi informasi pribadi mereka kepada satu sama lain, dalam hampir semua kesempatan tanpa keterlibatan Eureka Logistics, untuk menyelesaikan transaksi. Dalam transaksi biasa, Pengguna dapat memiliki akses ke nama, ID pengguna, alamat email serta informasi kontak dan pos lainnya dari pengguna lainnya."
+      },
+      {
+        "id": "perlindungan_informasi",
+        "title": "BAGAIMANA EUREKA LOGISTICS MELINDUNGI INFORMASI PELANGGAN?",
+        "content": "Kami menerapkan berbagai langkah pengamanan untuk memastikan keamanan data pribadi Anda di sistem kami. Data pribadi pengguna berada di belakang jaringan yang aman dan hanya dapat diakses oleh sejumlah kecil karyawan yang memiliki hak akses khusus ke sistem tersebut. Apabila Anda berhenti menggunakan Situs, atau izin Anda untuk menggunakan Situs dan/atau Layanan diakhiri, kami dapat terus menyimpan, menggunakan dan/atau mengungkapkan data pribadi Anda sesuai dengan Kebijakan Privasi. Dengan tunduk pada hukum yang berlaku, kami dapat membuang data pribadi Anda secara aman tanpa pemberitahuan sebelumnya kepada Anda."
+      },
+      {
+        "id": "pengungkapan_pihak_luar",
+        "title": "APAKAH EUREKA LOGISTICS MENGUNGKAPKAN INFORMASI YANG DIKUMPULKANNYA DARI PENGUNJUNG KEPADA PIHAK LUAR?",
+        "content": "Dalam menjalankan bisnis kami, kami akan/mungkin perlu mengungkapkan data pribadi Anda kepada penyedia layanan pihak ketiga, agen dan/atau afiliasi atau perusahaan terkait kami, dan/atau pihak ketiga lainnya, untuk satu atau lebih Tujuan yang disebutkan di atas. Penyedia layanan pihak ketiga, agen dan/atau afiliasi atau perusahaan terkait dan/atau pihak ketiga lainnya tersebut akan mengolah data pribadi Anda atas nama kami atau pihak lainnya, untuk satu atau lebih Tujuan yang disebutkan di atas. Pihak ketiga tersebut termasuk, dengan tidak terbatas pada:\n\n- anak perusahaan, afiliasi dan perusahaan terkait kami;\n- kontraktor, agen, penyedia layanan dan pihak ketiga lainnya yang kami gunakan untuk mendukung bisnis kami;\n- pembeli atau penerus lainnya dalam hal terjadi penggabungan, divestasi, restrukturisasi, reorganisasi, pembubaran atau penjualan atau pengalihan lainnya atas beberapa atau semua aset Eureka Logistics;\n- pihak ketiga kepada siapa kami mengungkapkan data tersebut untuk satu Tujuan atau lebih dan pihak ketiga tersebut pada gilirannya akan mengumpulkan dan mengolah data pribadi Anda untuk satu Tujuan atau lebih.\n\nIni mungkin memerlukan, antara lain, berbagi informasi statistik dan demografis tentang Pengguna kami dan penggunaan Layanan oleh mereka kepada pemasok iklan dan pemrograman. Ini tidak akan termasuk hal apapun yang dapat digunakan untuk mengidentifikasi Anda secara khusus atau menemukan informasi pribadi tentang diri Anda.\n\nPihak ketiga mungkin menyadap atau mengakses data pribadi yang dikirimkan ke atau tersimpan di situs tanpa izin, teknologi mungkin mengalami kerusakan fungsi atau tidak bekerja seperti yang diharapkan, atau seseorang mungkin mengakses, memanfaatkan atau menyalahgunakan informasi tanpa ada kesalahan dari pihak kami. Meski demikian kami akan menggunakan pengaturan keamanan yang wajar untuk melindungi data pribadi Anda; akan tetapi tidak dapat dihindari, tidak ada jaminan keamanan mutlak seperti tetapi tidak terbatas pada pengungkapan tanpa izin yang timbul dari peretasan yang berbahaya dan canggih oleh pihak yang tidak senang atau memusuhi tanpa adanya kesalahan dari pihak kami."
+      },
+      {
+        "id": "akses_lokasi",
+        "title": "AKSES LOKASI",
+        "content": "Aplikasi ini mengumpulkan data lokasi perangkat Anda, termasuk saat aplikasi berjalan di latar belakang (background), untuk mendukung proses pengiriman barang kepada pelanggan secara real-time.\n\nKami memerlukan akses lokasi latar belakang agar tetap dapat melakukan pelacakan perjalanan meskipun aplikasi tidak sedang terbuka. Informasi lokasi ini digunakan untuk:\n\n- Mengetahui lokasi terkini pengemudi atau kurir\n- Memastikan proses pengiriman barang berjalan sesuai rute dan waktu yang ditentukan\n- Memberikan pembaruan status lokasi kepada pelanggan secara real-time\n\nPengumpulan data lokasi hanya dilakukan jika Anda memberikan izin secara eksplisit. Data tersebut digunakan untuk keperluan internal dan tidak dibagikan kepada pihak ketiga tanpa persetujuan Anda."
+      },
+      {
+        "id": "keamanan_kontrol",
+        "title": "KEAMANAN DAN KONTROL PENGGUNA",
+        "content": "Anda dapat mencabut izin akses lokasi kapan saja melalui pengaturan perangkat Anda. Namun, perlu diperhatikan bahwa fungsi pelacakan perjalanan dan pengiriman mungkin tidak dapat berjalan optimal tanpa akses lokasi yang aktif, termasuk saat aplikasi berjalan di latar belakang."
+      },
+      {
+        "id": "informasi_pihak_ketiga",
+        "title": "INFORMASI YANG DIKUMPULKAN OLEH PIHAK KETIGA",
+        "content": "Situs kami menggunakan Google Analytics, sebuah layanan analisis web yang disediakan oleh Google, Inc. (\"Google\"). Google Analytics menggunakan cookies, yaitu file teks yang ditaruh di komputer Anda, untuk membantu situs web menganalisis bagaimana Pengguna menggunakan Situs. Informasi yang hasilkan oleh cookie tentang penggunaan situs web oleh Anda (termasuk alamat IP Anda) akan dikirimkan ke dan disimpan oleh Google di server di Amerika Serikat. Google akan menggunakan informasi ini untuk tujuan mengevaluasi penggunaan situs web oleh Anda, menyusun laporan tentang kegiatan situs web untuk operator situs web serta menyediakan layanan lainnya yang berkaitan dengan kegiatan situs web dan penggunaan Internet.\n\nKami, dan pihak ketiga, dari waktu ke waktu dapat menyediakan unduhan aplikasi perangkat lunak untuk Anda gunakan di atau melalui Layanan. Aplikasi ini dapat mengakses secara terpisah, dan memungkinkan pihak ketiga untuk melihat informasi identifikasi Anda, seperti nama Anda, ID pengguna Anda, Alamat IP komputer Anda atau informasi lainnya seperti cookies yang mungkin sebelumnya telah Anda pasang atau dipasang untuk Anda oleh aplikasi perangkat lunak atau situs web pihak ketiga."
+      },
+      {
+        "id": "penafian_keamanan",
+        "title": "PENAFIAN TENTANG KEAMANAN DAN SITUS PIHAK KETIGA",
+        "content": "KAMI TIDAK MENJAMIN KEAMANAN DATA PRIBADI DAN/ATAU INFORMASI LAIN YANG ANDA BERIKAN DI SITUS PIHAK KETIGA. Kami menerapkan berbagai langkah pengamanan untuk menjaga keamanan data pribadi Anda yang kami miliki atau berada di bawah kendali kami. Data pribadi Anda berada di belakang jaringan yang aman dan hanya dapat diakses oleh sejumlah kecil orang yang memiliki hak akses khusus ke sistem tersebut, dan diwajibkan untuk menjaga kerahasiaan data pribadi tersebut.\n\nDalam upaya untuk memberikan nilai yang lebih baik kepada Anda, kami mungkin memilih berbagai situs web pihak ketiga untuk ditautkan dan dibingkai dalam Situs. Kami juga dapat berpartisipasi dalam pencitraan merek bersama dan hubungan lainnya untuk menawarkan e-commerce serta layanan dan fitur lainnya kepada pengunjung kami. Situs tautan ini memiliki kebijakan privasi serta pengaturan keamanan yang terpisah dan berdiri sendiri."
+      },
+      {
+        "id": "kontrol_pengguna",
+        "title": "BAGAIMANA ANDA DAPAT MEMILIH KELUAR, MENGHAPUS, MEMINTA AKSES ATAU MENGUBAH INFORMASI YANG TELAH ANDA BERIKAN KEPADA KAMI?",
+        "content": "Memilih Keluar dan Mencabut Persetujuan\nUntuk mengubah langganan email Anda, silakan beri tahu kami dengan mengirimkan email ke info@eurekalogistics.co.id. Harap diperhatikan bahwa karena adanya jadwal produksi email, Anda mungkin masih menerima email yang sudah diproduksi.\n\nAnda dapat mencabut persetujuan Anda untuk pengumpulan, penggunaan dan/atau pengungkapan data pribadi Anda yang kami miliki atau berada di bawah kendali kami dengan mengirimkan email ke info@eurekalogistics.co.id.\n\nSetelah kami menerima instruksi pencabutan yang jelas dari Anda dan memverifikasi identitas Anda, kami akan memproses permintaan Anda untuk pencabutan persetujuan, dan setelahnya kami tidak akan mengumpulkan, menggunakan dan/atau mengungkapkan data pribadi Anda dengan cara yang tercantum dalam permintaan Anda.\n\nAkan tetapi, pencabutan persetujuan Anda dapat menyebabkan akibat hukum tertentu yang timbul dari pencabutan tersebut. Dalam hal ini, dengan tergantung pada sejauh mana pencabutan persetujuan untuk kami mengolah data pribadi Anda, ini dapat berarti bahwa kami tidak akan dapat terus menyediakan Layanan kepada Anda.\n\nMeminta Akses dan/atau Pembetulan Data Pribadi\nApabila Anda memiliki akun dengan kami, Anda dapat mengakses dan/atau membetulkan sendiri data pribadi Anda yang saat ini kami miliki atau kendalikan melalui halaman Pengaturan Akun di Situs. Apabila Anda tidak memiliki akun dengan kami, Anda dapat meminta untuk mengakses dan/atau membetulkan data pribadi Anda yang saat ini kami miliki atau kendalikan dengan mengirimkan permintaan tertulis kepada kami.\n\nUntuk permintaan mengakses data pribadi, setelah kami memiliki cukup informasi dari Anda untuk menangani permintaan, kami akan berusaha untuk memberikan data pribadi yang bersangkutan kepada Anda dalam 30 hari.\n\nUntuk permintaan membetulkan data pribadi, setelah kami memiliki cukup informasi dari Anda untuk menangani permintaan, kami akan membetulkan data pribadi Anda dalam waktu 30 menit. Apabila kami tidak dapat melakukannya dalam jangka waktu tersebut, kami akan memberi tahu Anda kapan paling cepat kami dapat melakukan pembetulan.\n\nKami juga akan/dapat mengenakan biaya yang wajar kepada Anda untuk penanganan dan pemrosesan permintaan Anda untuk mengakses data pribadi Anda. Apabila kami memilih untuk mengenakan biaya, kami akan memberikan perkiraan biaya yang akan kami kenakan kepada Anda secara tertulis.\n\nKami berhak untuk menolak membetulkan data pribadi Anda sesuai dengan ketentuan yang tercantum dalam Undang-undang Privasi."
+      },
+      {
+        "id": "kontak",
+        "title": "PERTANYAAN, MASALAH ATAU KELUHAN? HUBUNGI KAMI",
+        "content": "Apabila Anda memiliki pertanyaan atau masalah tentang praktik privasi kami atau hubungan Anda dengan Layanan, silakan jangan ragu-ragu untuk menghubungi: info@eurekalogistics.co.id"
+      },
+      {
+        "id": "syarat_ketentuan",
+        "title": "SYARAT DAN KETENTUAN",
+        "content": "Silakan juga baca Syarat Layanan yang menetapkan penggunaan, penafian, dan batasan tanggung jawab yang mengatur penggunaan Situs dan Layanan serta kebijakan terkait lainnya."
+      }
+    ],
+    "contactEmail": "info@eurekalogistics.co.id",
+    "lastUpdated": "17 Juli 2025"
+  },
+  "services": {
+  "title": "Produk Kami yang Luar Biasa",
+  "subtitle": "Berbagai solusi logistik terintegrasi untuk bisnis Anda",
+  "bottomText": "Siap memberikan solusi terbaik untuk kebutuhan logistik Anda",
+  "serviceList": [
+    {
+      "id": 1,
+      "title": "Trucking",
+      "description": "Pelayanan Pengiriman barang dalam satu unit penuh kendaraan (Full Charter Service)",
+      "features": ["Full Charter Service", "Kapasitas Besar", "Efisien untuk Volume Tinggi"],
+      "color": "#2A388A",
+      "gradient": "from-blue-600 to-blue-800",
+      "icon": "🚛"  
+    },
+    {
+      "id": 2,
+      "title": "Regular",
+      "description": "Pelayanan pengiriman cepat, aman, dan handal untuk dokumen, surat, dan paket ke seluruh Indonesia.",
+      "features": ["Pengiriman Cepat", "Tracking Real-time", "Jangkauan Nasional"],
+      "color": "#E92429",
+      "gradient": "from-red-500 to-red-700",
+      "icon": "🚐"  
+    },
+    {
+      "id": 3,
+      "title": "Project Logistics",
+      "description": "Pengiriman ke seluruh Indonesia menggunakan semua jenis kendaraan melalui jalur darat, laut, maupun udara.",
+      "features": ["Multi-Modal Transport", "Project Management", "Custom Solutions"],
+      "color": "#2A388A",
+      "gradient": "from-green-600 to-blue-800",
+      "icon": "🚢"  
+    },
+    {
+      "id": 4,
+      "title": "Movers (Jasa Pindahan)",
+      "description": "Layanan pindahan untuk residensial (rumah, apartemen) dan komersial (kantor, gudang) ke seluruh Indonesia.",
+      "features": ["Packing Professional", "Asuransi Barang", "Setup Lokasi Baru"],
+      "color": "#E92429",
+      "gradient": "from-purple-600 to-red-700",
+      "icon": "📦"
+    }
+  ]
+},
+  "transport": {
+    "title": "Layanan kami yang luar biasa",
+    "subtitle": "Menyediakan berbagai mode transportasi untuk kebutuhan logistik Anda dengan teknologi mutakhir",
+    "services": [
+      {
+        "id": 1,
+        "emoji": "✈️",
+        "title": "Rute Udara",
+        "description": "Layanan Transportasi Udara untuk Pengiriman Internasional dan Domestik.",
+        "features": [
+          "Pengiriman ekspres",
+          "Pengiriman Internasional",
+          "Pelacakan waktu nyata"
+        ]
+      },
+      {
+        "id": 2,
+        "emoji": "🚛",
+        "title": "Rute darat",
+        "description": "Layanan lahan dengan berbagai jenis kendaraan, dilengkapi dengan GPS & ERP untuk pengiriman yang lebih aman dan lebih efisien.",
+        "features": [
+          "Pelacakan GPS",
+          "Integrasi ERP",
+          "Armada multi-kendaraan"
+        ]
+      },
+      {
+        "id": 3,
+        "emoji": "🚢",
+        "title": "Rute laut",
+        "description": "Layanan Pengiriman Laut Di luar Java menggunakan sistem LTL dan FTL, mencakup berbagai metode pengiriman.",
+        "features": [
+          "Sistem LTL & FTL",
+          "Kapal Roro & Pelni",
+          "Cakupan nasional"
+        ]
+      }
+    ],
+    "animations": {
+      "loadingText": "Layanan Memuat ...",
+      "hoverTooltip": "Klik untuk mempelajari lebih lanjut",
+      "tapFeedback": "Layanan dipilih",
+      "particleEffect": "Partikel interaktif"
+    },
+    "accessibility": {
+      "cardLabel": "Kartu Layanan",
+      "iconLabel": "Ikon Layanan",
+      "featuresLabel": "Fitur Layanan",
+      "interactiveLabel": "Elemen interaktif"
+    }
+  },
+  "serviceDetails": {
+    "airRoute": {
+      "fullTitle": "Layanan Transportasi Udara",
+      "longDescription": "Layanan Transportasi Udara kami menyediakan solusi pengiriman yang cepat dan andal untuk kebutuhan pengiriman internasional dan domestik. ",
+      "benefits": [
+        "Waktu pengiriman tercepat",
+        "Jangkauan dan cakupan global",
+        "Penanganan Prioritas untuk Pengiriman Mendesak",
+        "Sistem Pelacakan Lanjutan",
+        "Dukungan Izin Bea Cukai",
+        "Opsi yang dikendalikan suhu"
+      ],
+      "serviceTypes": [
+        "Express Air Freight",
+        "Kargo udara standar",
+        "Kurir internasional",
+        "Pengiriman hari yang sama",
+        "Pengiriman hari berikutnya"
+      ]
+    },
+    "landRoute": {
+      "fullTitle": "Layanan Transportasi Tanah",
+      "longDescription": "Layanan transportasi darat yang komprehensif kami menggunakan armada kendaraan modern yang dilengkapi dengan pelacakan GPS dan integrasi ERP. ",
+      "benefits": [
+        "Pelacakan GPS real-time",
+        "Sistem ERP terintegrasi",
+        "Armada kendaraan yang beragam",
+        "Pengiriman pintu ke pintu",
+        "Layanan terjadwal dan sesuai permintaan",
+        "Bukti Konfirmasi Pengiriman"
+      ],
+      "serviceTypes": [
+        "Beban truk penuh (FTL)",
+        "Kurang dari beban truk (LTL)",
+        "Tanah ekspres",
+        "Tanah biasa",
+        "Transportasi Khusus"
+      ]
+    },
+    "seaRoute": {
+      "fullTitle": "Layanan Transportasi Laut",
+      "longDescription": "Layanan Transportasi Laut kami menawarkan solusi hemat biaya untuk pengiriman barang di luar Jawa dan ke tujuan internasional. ",
+      "benefits": [
+        "Hemat biaya untuk pengiriman curah",
+        "Opsi LTL dan FTL yang fleksibel",
+        "Beberapa metode pengiriman",
+        "Konektivitas Antar-Island",
+        "Layanan Wadah dan Break-Bulk",
+        "Opsi port-to-port dan pintu ke pintu"
+      ],
+      "serviceTypes": [
+        "Pengiriman Kontainer",
+        "Hancurkan kargo curah",
+        "Roro (roll-on/roll-off)",
+        "Kemitraan Pelni",
+        "Inter-Island Ferry"
+      ]
+    }
+  },
+  "ui": {
+    "buttons": {
+      "learnMore": "Pelajari lebih lanjut",
+      "getQuote": "Dapatkan penawaran",
+      "contactUs": "Hubungi kami",
+      "viewDetails": "Lihat detail"
+    },
+    "states": {
+      "loading": "Memuat...",
+      "error": "Layanan pemuatan kesalahan",
+      "retry": "Mencoba kembali",
+      "noServices": "Tidak ada layanan yang tersedia"
+    },
+    "interactions": {
+      "hover": "Melayang untuk detailnya",
+      "tap": "Ketuk untuk dijelajahi",
+      "swipe": "Gesek untuk melihat lebih banyak",
+      "click": "Klik untuk informasi lebih lanjut"
+    }
+  },
+  "features": {
+    "tracking": {
+      "title": "Pelacakan waktu nyata",
+      "description": "Pantau status pengiriman Anda secara real-time"
+    },
+    "security": {
+      "title": "Pengiriman aman",
+      "description": "Paket Anda dilindungi sepanjang perjalanan"
+    },
+    "support": {
+      "title": "Dukungan 24/7",
+      "description": "Tim kami tersedia sepanjang waktu untuk membantu Anda"
+    },
+    "network": {
+      "title": "Jaringan yang luas",
+      "description": "Cakupan luas di seluruh Indonesia dan tujuan internasional"
+    }
+  },
+  "cta": {
+    "title": "Siap dikirim?",
+    "subtitle": "Pilih solusi transportasi terbaik untuk kebutuhan Anda",
+    "description": "Hubungi kami hari ini untuk membahas persyaratan logistik Anda dan mendapatkan penawaran yang disesuaikan.",
+    "primaryButton": "Mulai",
+    "secondaryButton": "Pelajari lebih lanjut"
+  },
+  "intro": {
+    "welcome": "Selamat datang di Eureka Logistics"
+  },
+  "operational": {
+    "badge": "Jam operasional",
+    "title": "Siap melayani Anda",
+    "description": "Tim profesional kami siap membantu dengan kebutuhan logistik Anda setiap hari kerja",
+    "status": {
+      "open": {
+        "title": "Kami Buka!",
+        "description": "Tim kami siap membantu Anda sekarang"
+      },
+      "closed": {
+        "title": "Kami ditutup",
+        "description": "Silakan hubungi kami selama jam kerja"
+      }
+    },
+    "clock": {
+      "timezone": "Wib"
+    },
+    "actions": {
+      "contactNow": "Hubungi sekarang",
+      "outsideHours": "Jam kerja luar",
+      "sendMessage": "Kirim pesan"
+    },
+    "schedule": {
+      "title": "Jadwal operasional",
+      "days": {
+        "monday": "Senin",
+        "tuesday": "Selasa",
+        "wednesday": "Rabu",
+        "thursday": "Kamis",
+        "friday": "Jumat",
+        "saturday": "Sabtu",
+        "sunday": "Minggu"
+      },
+      "hours": {
+        "weekday": "08:00 - 17:00",
+        "saturday": "08:00 - 15:00",
+        "closed": "Tertutup"
+      },
+      "today": "Hari ini"
+    }
+  },
+  "Contact": {
+    "intro": {
+      "badge": "Mari kita berkolaborasi",
+      "title": "Hubungi",
+      "titleHighlight": "Kami",
+      "subtitle": "Kami siap menjadi mitra tepercaya Anda untuk solusi logistik Anda"
+    },
+    "quickContact": {
+      "title": "Cara mudah untuk menghubungi kami",
+      "subtitle": "Pilih metode komunikasi yang paling nyaman untuk Anda",
+      "methods": {
+        "phone": {
+          "title": "Telepon",
+          "subtitle": "Hubungi kami secara langsung",
+          "value": "021-87796010",
+          "action": "Telp: 02187796010"
+        },
+        "email": {
+          "title": "E-mail",
+          "subtitle": "Kirimi kami email",
+          "value": "info@eurekalogistic.co.id",
+          "action": "mailto: info@eurekalogistics.co.id"
+        },
+        "location": {
+          "title": "Lokasi",
+          "subtitle": "Kunjungi kantor kami",
+          "value": "Jl. ",
+          "action": "https://maps.app.goo.gl/dodzvqtmrv4fw74d6"
+        }
+      }
+    },
+  "About": {
+    "hero": {
+      "smallTitle": "Tentang Kami",
+      "bigTitle": "Cerita {0} & Perjalanan Kami",
+      "highlightedWord": "Kami",
+      "subtitle": "Temukan bagaimana kami menjadi mitra logistik terpercaya di seluruh Indonesia"
+    },
+    "title": "Tentang Eureka Logistics",
+    "subtitle": "Mitra Logistik Terpercaya Anda",
+    "tabs": {
+      "about": "Tentang",
+      "mission": "Visi & Misi"
+    },
+    "about": {
+      "title": "Tentang Eureka Logistics",
+      "content": [
+        "PT Eureka Logistics dan grupnya merupakan bagian dari PT Penerbit Erlangga (berdiri tahun 1952). Didirikan pada tahun 2011, Eureka Logistics memulai operasi logistiknya dengan mendistribusikan produk PT Penerbit Erlangga ke berbagai wilayah di Indonesia, menggunakan rute transportasi darat dan laut.",
+        "Seiring waktu, PT Eureka Logistics berkembang dengan menyediakan layanan logistik untuk berbagai perusahaan di seluruh Indonesia. Untuk mendukung ekspansi ini, PT Eureka Logistics terus menambah armada dan aktif berkolaborasi dengan banyak perusahaan logistik terpercaya di Indonesia.",
+        "PT Eureka Logistics memahami pentingnya logistik dalam operasi bisnis, termasuk ketepatan waktu pengiriman, keamanan kemasan produk, dan efektivitas dalam berkoordinasi dengan semua pihak terkait.",
+        "Saat ini, Eureka Logistics mengoperasikan tujuh kantor cabang yang berlokasi di Bandung, Semarang, Yogyakarta, Surabaya, Palembang, Pekanbaru, dan Medan. Untuk wilayah di luar lokasi tersebut, kami berkoordinasi melalui jaringan grup kami, PT Penerbit Erlangga, yang memiliki cabang di seluruh negeri, serta melalui mitra logistik kami yang andal.",
+        "Kami menerapkan filosofi Kaizen dalam perusahaan kami; kami berkomitmen untuk perbaikan berkelanjutan dan selalu terbuka terhadap umpan balik dan saran dari mitra dan klien kami yang mempercayakan pengiriman produk mereka kepada kami. Implementasi ini mencerminkan dedikasi kami untuk memberikan layanan terbaik kepada semua pelanggan kami."
+      ],
+      "stats": {
+        "founded": {
+          "value": "2011",
+          "label": "Tahun Berdiri"
+        },
+        "branches": {
+          "value": "7",
+          "label": "Kantor Cabang"
+        },
+        "groupExperience": {
+          "value": "1952",
+          "label": "Grup Berdiri"
+        }
+      }
+    },
+    "vision": {
+      "title": "Visi",
+      "content": "Menjadi perusahaan logistik yang andal, aman, dan tepat waktu dengan pendekatan berorientasi pelanggan dan jaringan yang mencakup pasar domestik dan internasional"
+    },
+    "mission": {
+      "title": "Misi",
+      "items": [
+        "Membangun SDM yang loyal, profesional dan berkomitmen pada kepuasan pelanggan",
+        "Membangun dan mengembangkan armada transportasi, pergudangan dengan sistem informasi yang terintegrasi dan terpercaya",
+        "Membangun hubungan yang saling mendukung dengan mitra yang terpercaya",
+        "Memberikan pelayanan prima (tepat waktu, tepat kuantitas dan tepat kualitas)"
+      ]
+    },
+    "philosophy": {
+      "title": "Filosofi Kami",
+      "subtitle": "Perbaikan berkelanjutan melalui metodologi Kaizen",
+      "items": {
+        "commitment": {
+          "title": "Komitmen",
+          "description": "Berdedikasi pada kepuasan pelanggan melalui layanan yang andal"
+        },
+        "improvement": {
+          "title": "Perbaikan",
+          "description": "Terus meningkatkan proses untuk efisiensi yang lebih baik"
+        },
+        "excellence": {
+          "title": "Keunggulan",
+          "description": "Memberikan solusi logistik premium dengan presisi"
+        }
+      }
+    }
+  },
+    "office": {
+      "title": "Kantor kami",
+      "subtitle": "Kunjungi kantor pusat kami untuk konsultasi langsung",
+      "headOffice": "Kantor pusat",
+      "location": "Jakarta Timur",
+      "companyName": "Logistik Eureka",
+      "details": {
+        "address": {
+          "label": "Alamat",
+          "value": "Jl. "
+        },
+        "phone": {
+          "label": "Telepon",
+          "value": "021-87796010"
+        },
+        "email": {
+          "label": "E-mail",
+          "value": "info@eurekalogistic.co.id"
+          }
+        }
+      }
+    }
+  }

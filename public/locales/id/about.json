@@ -1,0 +1,74 @@
+{
+    "About": {
+        "hero": {
+            "smallTitle": "Tentang Kami",
+            "bigTitle": "Perjalanan & <span>{{highlightedWord}}</span> Kami",
+            "highlightedWord": "Cerita",
+            "subtitle": "Temukan bagaimana kami menjadi mitra logistik terpercaya di seluruh Indonesia"
+        },
+        "title": "Tentang Eureka Logistics",
+        "subtitle": "Mitra Logistik Terpercaya Anda",
+        "tabs": {
+            "about": "Tentang",
+            "mission": "Visi & Misi"
+        },
+        "about": {
+            "title": "Tentang Eureka Logistics",
+            "content": [
+                "PT Eureka Logistics dan grupnya merupakan bagian dari PT Penerbit Erlangga (berdiri tahun 1952). Didirikan pada tahun 2011, Eureka Logistics memulai operasi logistiknya dengan mendistribusikan produk PT Penerbit Erlangga ke berbagai wilayah di Indonesia, menggunakan rute transportasi darat dan laut.",
+                "Seiring waktu, PT Eureka Logistics berkembang dengan menyediakan layanan logistik untuk berbagai perusahaan di seluruh Indonesia. Untuk mendukung ekspansi ini, PT Eureka Logistics terus menambah armada dan aktif berkolaborasi dengan banyak perusahaan logistik terpercaya di Indonesia.",
+                "PT Eureka Logistics memahami pentingnya logistik dalam operasi bisnis, termasuk ketepatan waktu pengiriman, keamanan kemasan produk, dan efektivitas dalam berkoordinasi dengan semua pihak terkait.",
+                "Saat ini, Eureka Logistics mengoperasikan tujuh kantor cabang yang berlokasi di Bandung, Semarang, Yogyakarta, Surabaya, Palembang, Pekanbaru, dan Medan. Untuk wilayah di luar lokasi tersebut, kami berkoordinasi melalui jaringan grup kami, PT Penerbit Erlangga, yang memiliki cabang di seluruh negeri, serta melalui mitra logistik kami yang andal.",
+                "Kami menerapkan filosofi Kaizen dalam perusahaan kami; kami berkomitmen untuk perbaikan berkelanjutan dan selalu terbuka terhadap umpan balik dan saran dari mitra dan klien kami yang mempercayakan pengiriman produk mereka kepada kami. Implementasi ini mencerminkan dedikasi kami untuk memberikan layanan terbaik kepada semua pelanggan kami."
+            ],
+            "stats": {
+                "founded": {
+                    "value": "2011",
+                    "label": "Tahun Berdiri"
+                },
+                "branches": {
+                    "value": "7",
+                    "label": "Kantor Cabang"
+                },
+                "groupExperience": {
+                    "value": "1952",
+                    "label": "Grup Berdiri"
+                }
+            }
+        },
+        "vision": {
+            "title": "Visi",
+            "content": "Menjadi perusahaan logistik yang andal, aman, dan tepat waktu dengan pendekatan berorientasi pelanggan dan jaringan yang mencakup pasar domestik dan internasional"
+        },
+        "mission": {
+            "title": "Misi",
+            "items": [
+                "Membangun SDM yang loyal, profesional dan berkomitmen pada kepuasan pelanggan",
+                "Membangun dan mengembangkan armada transportasi, pergudangan dengan sistem informasi yang terintegrasi dan terpercaya",
+                "Membangun hubungan yang saling mendukung dengan mitra yang terpercaya",
+                "Memberikan pelayanan prima (tepat waktu, tepat kuantitas dan tepat kualitas)"
+            ]
+        },
+        "philosophy": {
+            "title": "Filosofi Kami",
+            "subtitle": "Perbaikan berkelanjutan melalui metodologi Kaizen",
+            "items": {
+                "commitment": {
+                    "title": "Komitmen",
+                    "description": "Berdedikasi pada kepuasan pelanggan melalui layanan yang andal"
+                },
+                "improvement": {
+                    "title": "Perbaikan",
+                    "description": "Terus meningkatkan proses untuk efisiensi yang lebih baik"
+                },
+                "excellence": {
+                    "title": "Keunggulan",
+                    "description": "Memberikan solusi logistik premium dengan presisi"
+                }
+            }
+        },
+        "intro": {
+            "welcome": "Selamat datang di Eureka Logistics"
+        }
+    }
+}

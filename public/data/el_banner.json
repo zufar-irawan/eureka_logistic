@@ -1,0 +1,26 @@
+{
+  "status": {
+    "code": 200,
+    "message": "Success"
+  },
+  "data": {
+    "banner": [
+      {
+        "id": 407,
+        "slider": "https://eurekalogistics.co.id/assets/Banner1-b6a55914.png",
+        "link": "#",
+        "status": 1,
+        "sort": 1,
+        "date_added": "2025-06-23T04:08:51.000Z"
+      },
+      {
+        "id": 408,
+        "slider": "https://eurekalogistics.co.id/assets/Banner2-e8db6294.png",
+        "link": "#",
+        "status": 1,
+        "sort": 2,
+        "date_added": "2025-06-23T04:09:06.000Z"
+      }
+    ]
+  }
+}

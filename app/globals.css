@@ -19,10 +19,30 @@
   }
 }
 
+.hero-gradient {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+}
+
 * {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.clip-left {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+
+.clip-right {
+  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.clip-left-services {
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+.clip-right-services {
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
 }

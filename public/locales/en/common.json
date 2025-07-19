@@ -1,0 +1,808 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "operational": "Operational",
+      "contact": "Contact"
+    },
+    "language": {
+      "current": "EN",
+      "options": {
+        "id": "ID",
+        "en": "EN"
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "PT. EUREKA LOGISTICS",
+      "copyright": "©2006 - Eureka Logistics. All Rights Reserved.",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "industryPartners": {
+      "title": "Industry Partners",
+      "partners": [
+        {
+          "name": "Eureka Bookhouse",
+          "alt": "Eureka Bookhouse"
+        },
+        {
+          "name": "Jaja.id",
+          "alt": "Jaja.id"
+        },
+        {
+          "name": "Jajato",
+          "alt": "Jajato"
+        },
+        {
+          "name": "Master Diskon",
+          "alt": "Master Diskon"
+        },
+        {
+          "name": "Raja Cepat",
+          "alt": "Raja Cepat"
+        },
+        {
+          "name": "Katarasa",
+          "alt": "Katarasa"
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Eureka Logistics",
+    "subtitle": "Your Trusted Logistics Partner",
+    "description": "Leading logistics solutions for companies that produce and distribute their products throughout Indonesia with modern technology.",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "Learn More"
+    },
+    "navigation": {
+      "previous": "Previous",
+      "next": "Next",
+      "pause": "Pause",
+      "play": "Play"
+    }
+  },
+  "branchSlider": {
+    "title": "Branch",
+    "contact": {
+      "tel": "Tel:",
+      "email": "Email:",
+      "wa": "WhatsApp:"
+    },
+    "mapTitle": "Google Maps",
+    "branches": [
+      {
+        "id": 1,
+        "title": "Semarang",
+        "address": "Jl. Puspowarno Tengah No. 38-40 Semarang - Central Java.",
+        "tel": "+62247621968",
+        "email": "infosmg@eurekalogistics.co.id",
+        "wa": "6281293941037"
+      },
+      {
+        "id": 2,
+        "title": "Bandung",
+        "address": "Jl. Soekarno-Hatta No.554 Bandung - West Java",
+        "tel": "+62227507782",
+        "email": "infobdg@eurekalogistics.co.id",
+        "wa": "6287811048004"
+      },
+      {
+        "id": 3,
+        "title": "Surabaya",
+        "address": "Jl. Berbek Industri VII/15 Waru Sidoarjo (SIER Complex, Surabaya)",
+        "tel": "+62318664620",
+        "email": "infosby@eurekalogistics.co.id",
+        "wa": "6282244696077"
+      },
+      {
+        "id": 4,
+        "title": "Yogyakarta",
+        "address": "Jl. Gedongkuning No. 132, Rejowinangun, Yogyakarta City",
+        "tel": "+62247621968",
+        "email": "infosmg@eurekalogistics.co.id",
+        "wa": "6281293941037"
+      }
+    ]
+  },
+  "branchHero": {
+    "badge": "Our Branch Offices",
+    "title": "Our Branches",
+    "description": "Find the nearest branch office for more personalized logistics services"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us?",
+    "subtitle": "The best logistics solutions for your business distribution needs",
+    "features": [
+      {
+        "title": "Modern Fleet",
+        "description": "We have the latest, well-maintained transportation fleet to ensure the safety of your shipments"
+      },
+      {
+        "title": "Trusted System",
+        "description": "Supported by a reliable integrated logistics system and experienced professional team"
+      },
+      {
+        "title": "24/7 Service",
+        "description": "We are ready to help whenever you need logistics solutions"
+      }
+    ]
+  },
+  "ctaSection": {
+    "badge": "Trusted & Professional",
+    "title": {
+      "line1": "What Are You Waiting For, Join",
+      "line2": "Eureka Logistics",
+      "exclamation": "!"
+    },
+    "description": "Leading logistics solutions for companies that produce and distribute their products throughout Indonesia with modern technology.",
+    "services": [
+      {
+        "id": 1,
+        "title": "Container Shipping",
+        "description": "Efficient and reliable container shipping solutions"
+      },
+      {
+        "id": 2,
+        "title": "Warehousing",
+        "description": "Modern warehouses with integrated management systems"
+      },
+      {
+        "id": 3,
+        "title": "Distribution",
+        "description": "Extensive distribution network throughout Indonesia"
+      },
+      {
+        "id": 4,
+        "title": "Supply Chain",
+        "description": "Optimal and effective supply chain management"
+      },
+      {
+        "id": 5,
+        "title": "Freight Services",
+        "description": "Reliable land, sea, and air freight services"
+      },
+      {
+        "id": 6,
+        "title": "Logistics Solutions",
+        "description": "End-to-end logistics solutions for your business"
+      }
+    ],
+    "valueProposition": [
+      {
+        "icon": "🚛",
+        "title": "Fast Delivery",
+        "description": "Extensive distribution network for on-time delivery"
+      },
+      {
+        "icon": "🏢",
+        "title": "Modern Warehouse",
+        "description": "Storage facilities with cutting-edge technology"
+      },
+      {
+        "icon": "🔒",
+        "title": "Guaranteed Security",
+        "description": "Multi-layered security system to protect your goods"
+      }
+    ],
+    "buttons": {
+      "contact": "Contact Us",
+      "learnServices": "Learn About Services"
+    }
+  },
+  "sections": {
+    "about": {
+      "title": "About Us",
+      "subtitle": "Your Trusted Logistics Partner",
+      "description": "PT. Eureka Logistics has been serving as a trusted logistics partner since 2006, providing comprehensive logistics solutions for companies throughout Indonesia.",
+      "features": [
+        "Extensive nationwide network",
+        "Modern fleet and technology",
+        "Professional team",
+        "24/7 customer support"
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive Logistics Solutions",
+      "description": "We provide end-to-end logistics services to meet all your business needs",
+      "serviceList": [
+        {
+          "title": "Transportation",
+          "description": "Reliable transportation services with modern fleet"
+        },
+        {
+          "title": "Warehousing",
+          "description": "Secure storage facilities with advanced management systems"
+        },
+        {
+          "title": "Distribution",
+          "description": "Efficient distribution network across Indonesia"
+        },
+        {
+          "title": "Supply Chain Management",
+          "description": "Comprehensive supply chain optimization"
+        }
+      ]
+    },
+    "products": {
+      "title": "Our Products",
+      "subtitle": "Innovative Logistics Solutions",
+      "description": "Discover our range of products designed to streamline your logistics operations"
+    },
+    "operational": {
+      "title": "Operational Excellence",
+      "subtitle": "Streamlined Operations",
+      "description": "Our operational standards ensure efficiency and reliability in every logistics solution"
+    }
+  },
+  "navigation": {
+    "services": "Services",
+    "about": "About",
+    "branches": "Branches",
+    "contact": "Contact",
+    "home": "Home",
+    "products": "Products",
+    "operational": "Operational"
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "viewAll": "View All",
+    "previous": "Previous",
+    "next": "Next",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "close": "Close",
+    "open": "Open",
+    "menu": "Menu",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "remove": "Remove",
+    "select": "Select",
+    "clear": "Clear",
+    "apply": "Apply",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "back": "Back",
+    "forward": "Forward",
+    "up": "Up",
+    "down": "Down",
+    "left": "Left",
+    "right": "Right"
+  },
+  "contact": {
+    "title": "Contact",
+    "titleHighlight": "Us",
+    "subtitle": "Get in Touch",
+    "description": "We're here to help with all your logistics needs",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "message": "Message",
+      "subject": "Subject",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business Hours",
+      "workingHours": "Monday - Friday: 08:00 - 17:00",
+      "saturday": "Saturday: 08:00 - 12:00",
+      "sunday": "Sunday: Closed"
+    }
+  },
+  "meta": {
+    "title": "Eureka Logistics - Your Trusted Logistics Partner",
+    "description": "Leading logistics solutions for companies that produce and distribute their products throughout Indonesia with modern technology and professional service.",
+    "keywords": "logistics, transportation, warehousing, distribution, supply chain, Indonesia, freight, shipping"
+  },
+  "privacyPolicy": {
+    "title": "PRIVACY POLICY",
+    "subtitle": "Terms of protection for your personal data",
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "INTRODUCTION",
+        "content": "Welcome to the Eureka Logistics platform. This Privacy Policy (\"Privacy Policy\" or \"Policy\") is designed to help you understand how we collect, use, disclose and/or process personal data that you have entrusted to us and/or we have about you, both now and in the future, and to help you make informed decisions before providing your personal data to us. Please read this Privacy Policy carefully. If you have any questions about this information or our privacy practices, please see the section titled \"Questions, Issues or Complaints? Contact Us\" at the end of this Privacy Policy.\n\n\"Personal Data\" means data, whether true or not, about an individual who can be identified from such data, or from such data and other information to which an organization has or is likely to have access. Common examples of personal data may include names, identification numbers, and contact information.\n\nBy using the Services, registering an account with us, visiting our website, or accessing the Services, you acknowledge and agree that you accept the practices, requirements, and/or policies outlined in this Privacy Policy, and you hereby consent to our collection, use, disclosure and/or processing of your personal data as described herein. IF YOU DO NOT CONSENT TO THE PROCESSING OF YOUR PERSONAL DATA AS DESCRIBED IN THIS PRIVACY POLICY, PLEASE DO NOT USE OUR SERVICES OR ACCESS OUR WEBSITE. If we change our Privacy Policy, we will post those changes or the revised Privacy Policy on our website. We reserve the right to modify this Privacy Policy at any time."
+      },
+      {
+        "id": "when_collecting_data",
+        "title": "WHEN DOES EUREKA LOGISTICS COLLECT PERSONAL DATA?",
+        "content": "We will/may collect your personal data:\n\n- when you register and/or use our Services or Sites, or open an account with us;\n- when you enter into any agreement or provide documents or other information in relation to your interactions with us, or when you use our products and services;\n- when you submit any forms, including, but not limited to, application forms or other forms relating to any of our products and services, whether online or in physical form;\n- when you use any electronic services, or interact with us via our applications or use services on our website. This includes, without limitation, through cookies that we may deploy when you interact with our applications or website;\n- when you interact with us, such as via telephone calls (which may be recorded), letters, facsimile, face-to-face meetings, social media platforms and email;\n- when you submit your personal data to us for any reason whatsoever;\n- when you transact through our Services;\n- when you provide feedback or complaints to us;\n- when you register for a contest;\n\nWhen you visit, use, or interact with our mobile applications or Sites, we may collect certain information automatically or passively using various technologies, which technologies may be downloaded to your device and may set or modify settings on your device. The information we collect may include, without limitation, Internet Protocol (IP) addresses, computer/mobile device operating system, mobile device type, mobile device characteristics, unique device identifier (UDID) or mobile equipment identifier (MEID) for your mobile device, address of a referring website (if any), and the pages you visit on our website and mobile applications and the number of visits. We may only collect, use, disclose and/or process such information for the Purposes (defined below).\n\nOur mobile applications may collect precise information about the location of your mobile device using technologies such as GPS, Wi-Fi, etc. We collect, use, disclose and/or process this information for one or more Purposes including, without limitation, location-based services that you request or to deliver relevant content to you based on your location or to enable you to share your location with other Users as part of our mobile application services. For most mobile devices, you can withdraw your consent for us to acquire this information about your location through your device settings. If you have questions about how to disable your mobile device's location services, please contact your mobile device service provider or device manufacturer."
+      },
+      {
+        "id": "personal_data_collected",
+        "title": "WHAT PERSONAL DATA WILL BE COLLECTED BY EUREKA LOGISTICS?",
+        "content": "Personal data that may be collected by Eureka Logistics includes but is not limited to:\n\n- name;\n- email address;\n- phone number;\n- date of birth;\n- gender;\n- billing address;\n- bank account and payment information;\n- any other information about Users when Users register to use our Services or website, and when Users use our Services or website, as well as information relating to how Users use our Services or website;\n- aggregate data on content Users engage with.\n\nIf you do not want us to collect the personal information/data mentioned above, you may opt out at any time by notifying our Data Protection Officer in writing about it. Further information on opting out can be found in the section below titled \"How you can opt out, delete, request access or change information you have provided to us?\". However, please note that opting out of our collection of your personal data or withdrawing your consent for us to collect, use or process your personal data may affect your use of the Services."
+      },
+      {
+        "id": "creating_account",
+        "title": "CREATING AN ACCOUNT",
+        "content": "To use certain features of the Services, you must create a user account which requires you to submit certain personal data. When you register and create an account, we require you to provide us with your name and email address as well as a username of your choice. We also ask for certain information about you such as your phone number, email address, shipping address, photo identification, bank account details, age, date of birth, gender and your interests. After activating your account, you will select a username and password. Your username and password will be used so that you can securely access and manage your account."
+      },
+      {
+        "id": "viewing_web_pages",
+        "title": "VIEWING WEB PAGES",
+        "content": "As with most websites, your computer sends information which may include personal data about you that gets logged by a web server when you browse our Site. This typically includes without limitation your computer's IP address, operating system, browser name/version, the referring web page, pages requested, date/time, and sometimes a \"cookie\" (which can be disabled using your browser preferences) to help the site remember your last visit. If you are logged in, this information is associated with your personal account. The information is also included in anonymous statistics to allow us to understand how visitors use our site."
+      },
+      {
+        "id": "cookies",
+        "title": "COOKIES",
+        "content": "We may from time to time implement \"cookies\" or other features to allow us or third parties to collect or share information that will help us improve our Site and the Services we offer, or help us offer new services and features. \"Cookies\" are identifiers we transfer to your computer or device that allow us to recognize your computer or device and tell us how and when the Services or website are visited or used, by how many people and track movement within our website. We may link cookie information to personal data. Cookies also link to information regarding what items you have selected for purchase and pages you have viewed. This information is used to keep track of your shopping cart, for example. Cookies are also used to deliver content specific to your interests and to monitor website usage."
+      },
+      {
+        "id": "viewing_advertising_content",
+        "title": "VIEWING AND DOWNLOADING CONTENT AND ADVERTISING",
+        "content": "As with viewing web pages, when you view content and advertising and access other software on our Site or through the Services, most of the same information is sent to us (including, without limitation, IP Address, operating system, etc.); but, rather than page views, your computer sends us information about the content, advertising viewed and/or software installed by the Services and the website and the time."
+      },
+      {
+        "id": "services",
+        "title": "SERVICES",
+        "content": "We provide customer support services through email, SMS and feedback forms. In order to provide customer support, we will ask for your email address and mobile phone number. We will only use information received from customer support requests, including, without limitation, email addresses, for customer support services and we do not transfer or share this information with any third parties."
+      },
+      {
+        "id": "surveys",
+        "title": "SURVEYS",
+        "content": "From time to time, we may request information from Users via surveys. Participation in these surveys is completely voluntary and you therefore have a choice whether or not to disclose information to us. Information requested may include, without limitation, contact information (such as your email address), and demographic information (such as interests or age level). Survey information will be used for purposes of monitoring or improving use and satisfaction of the Services and will not be transferred to third parties, other than our contractors who help us manage or follow up on the survey."
+      },
+      {
+        "id": "information_usage",
+        "title": "HOW DO WE USE INFORMATION YOU PROVIDE TO US?",
+        "content": "We may collect, use, disclose and/or process your personal data for one or more of the following purposes:\n\n- to consider and/or process your application/transaction with us or your transaction or communications with third parties via the Services;\n- to manage, operate, provide and/or administer your use of and/or access to our Services and our website, as well as your relationship and user account with us;\n- to manage, operate, administer and provide you with as well as to facilitate the provision of our Services, including, without limitation, remembering your preferences;\n- to tailor your experience through the Services by displaying content according to your interests and preferences, providing a faster method for you to access your account and submit information to us and allowing us to contact you, if necessary;\n- to respond to, process, deal with or complete transactions and/or to fulfil your requests for certain products and services and notify you of service issues and unusual account actions;\n- to enforce our Terms of Service or any applicable end user license agreements;\n- to protect personal safety and the rights, property or safety of others;\n- for identification and/or verification purposes;\n- to maintain and administer any software updates and/or other updates and support that may be required from time to time to ensure the smooth operation of our Services;\n- to deal with or facilitate customer service, carry out your instructions, deal with or respond to any enquiries given by (or purported to be given by) you or on your behalf;\n- to contact you or communicate with you via voice call, text message and/or fax message, email and/or postal mail or otherwise for the purposes of administering and/or managing your relationship with us or your use of our Services;\n- to notify you when other Users have sent you private messages or posted comments for you on the Site;\n- to conduct research, analysis and development activities (including, but not limited to, data analytics, surveys, product and service development and/or profiling), to analyse how you use our Services, to improve our Services or products and/or to enhance your customer experience;\n- to allow for audits and surveys to, among other things, validate the size and composition of our target audience, and understand their experience with Eureka Logistics' Services;\n- where you have provided your prior consent to us for marketing and in this regard, to send you by post, email, location-based services or otherwise, marketing and promotional information and materials relating to products and/or services;\n- to audit our Services;\n- to prevent or investigate any fraud, unlawful activity, omission or misconduct, whether relating to your use of our Services or any other matter arising from your relationship with us;\n- to store, host, back up (whether for disaster recovery or otherwise) of your personal data;\n- any other purpose which we notify you of at the time of obtaining your consent.\n\nAs the purposes for which we will/may collect, use, disclose or process your personal data depend on the circumstances at hand, such purpose may not appear above. However, we will notify you of such other purposes at the time of obtaining your consent."
+      },
+      {
+        "id": "information_sharing",
+        "title": "INFORMATION SHARING FROM SERVICES",
+        "content": "Our Services allow Users to share their personal information with one another, in almost all occasions without Eureka Logistics' involvement, to complete transactions. In a typical transaction, Users may have access to each other's name, User ID, email address as well as other contact and postal information."
+      },
+      {
+        "id": "information_protection",
+        "title": "HOW DOES EUREKA LOGISTICS PROTECT CUSTOMER INFORMATION?",
+        "content": "We implement various security measures to ensure the safety of your personal data on our systems. User personal data is behind secured networks and is only accessible by a limited number of employees who have special access rights to such systems. If you stop using the Site, or your permission to use the Site and/or Services is terminated, we may continue to store, use and/or disclose your personal data in accordance with this Privacy Policy. Subject to applicable laws, we may dispose of your personal data securely without prior notice to you."
+      },
+      {
+        "id": "third_party_disclosure",
+        "title": "DOES EUREKA LOGISTICS DISCLOSE THE INFORMATION IT COLLECTS FROM VISITORS TO OUTSIDE PARTIES?",
+        "content": "In conducting our business, we will/may need to disclose your personal data to third-party service providers, agents and/or our affiliates or related companies, and/or other third parties, for one or more of the above-stated Purposes. Such third-party service providers, agents and/or affiliates or related companies and/or other third parties would be processing your personal data either on our behalf or otherwise, for one or more of the above-stated Purposes. Such third parties include, without limitation:\n\n- our subsidiaries, affiliates and related companies;\n- contractors, agents, service providers and other third parties we use to support our business;\n- a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution or other sale or transfer of some or all of Eureka Logistics' assets;\n- third parties to whom we may choose to disclose data for one or more of the Purposes and such third parties would in turn collect and process your personal data for one or more of the Purposes.\n\nThis may require, among other things, sharing statistical and demographic information about our Users and their use of the Services to suppliers of advertisements and programming. This will not include anything that can be used to identify you specifically or to discover personal information about you.\n\nThird parties may unlawfully intercept or access personal data transmitted to or contained in the sites, technologies may malfunction or not work as expected, or someone may access, abuse or misuse information through no fault of ours. Nevertheless we will deploy reasonable security arrangements to protect your personal data as required by the law; however, there can inevitably be no guarantee of absolute security such as but not limited to when unauthorised disclosure arising from malicious and sophisticated hacking by malcontents through no fault of ours."
+      },
+      {
+        "id": "location_access",
+        "title": "LOCATION ACCESS",
+        "content": "This application collects location data from your device, including when the application is running in the background, to support real-time goods delivery processes to customers.\n\nWe require background location access to be able to continue tracking trips even when the application is not open. This location information is used to:\n\n- Determine the current location of drivers or couriers\n- Ensure that the goods delivery process follows the designated route and time\n- Provide real-time location status updates to customers\n\nLocation data collection is only performed if you provide explicit permission. The data is used for internal purposes and is not shared with third parties without your consent."
+      },
+      {
+        "id": "security_control",
+        "title": "SECURITY AND USER CONTROL",
+        "content": "You can revoke location access permission at any time through your device settings. However, please note that the trip tracking and delivery functions may not be able to run optimally without active location access, including when the application is running in the background."
+      },
+      {
+        "id": "third_party_information",
+        "title": "INFORMATION COLLECTED BY THIRD PARTIES",
+        "content": "Our Site uses Google Analytics, a web analytics service provided by Google, Inc. (\"Google\"). Google Analytics uses cookies, which are text files placed on your computer, to help the website analyze how Users use the Site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage.\n\nWe, and third parties, may from time to time make software application downloads available to you on or through the Services. These applications may separately access, and allow third parties to view, your identifiable information, such as your name, your User ID, your computer's IP address or other information such as any cookies that you may previously have installed or that were installed for you by third party software or websites."
+      },
+      {
+        "id": "security_disclaimer",
+        "title": "DISCLAIMER REGARDING SECURITY AND THIRD PARTY SITES",
+        "content": "WE DO NOT GUARANTEE THE SECURITY OF PERSONAL DATA AND/OR OTHER INFORMATION THAT YOU PROVIDE ON THIRD PARTY SITES. We implement various security measures to maintain the safety of your personal data when you place an order or access your personal data. Your personal data is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the personal data confidential.\n\nIn an attempt to provide you with increased value, we may choose various third party websites to link to, and frame within, the Site. We may also participate in co-branding and other relationships to offer e-commerce and other services and features to our visitors. These linked sites have separate and independent privacy policies as well as security arrangements."
+      },
+      {
+        "id": "user_control",
+        "title": "HOW YOU CAN OPT OUT, DELETE, REQUEST ACCESS OR CHANGE INFORMATION YOU HAVE PROVIDED TO US?",
+        "content": "Opting Out and Withdrawing Consent\nTo modify your email subscriptions, please notify us by sending an email to info@eurekalogistics.co.id. Please note that due to email production schedules, you may receive emails that have already been produced.\n\nYou may withdraw your consent to the collection, use and/or disclosure of your personal data in our possession or under our control by submitting an email to info@eurekalogistics.co.id.\n\nOnce we have received clear instructions from you to withdraw your consent and verified your identity, we will process your withdrawal request, and thereafter not collect, use and/or disclose your personal data in the manner stated in your request.\n\nHowever, your withdrawal of consent could result in certain legal consequences arising from such withdrawal. In this regard, depending on the extent of your withdrawal of consent to us processing your personal data, it may mean that we will not be able to continue with your existing relationship with us or the contract you have with us will be terminated.\n\nRequesting Access and/or Correction of Personal Data\nIf you have an account with us, you may personally access and/or correct your personal data currently in our possession or control through the Account Settings page on the Site. If you do not have an account with us, you may request to access and/or correct your personal data currently in our possession or control by submitting a written request to us.\n\nFor requests to access personal data, once we have sufficient information from you to deal with the request, we will seek to provide you with the relevant personal data within 30 days.\n\nFor requests to correct personal data, once we have sufficient information from you to deal with the request, we will correct your personal data within 30 days. Where we are unable to do so within the said period, we will notify you of the time by which we will be able to make the correction.\n\nWe will/may also charge you a reasonable fee for the handling and processing of your requests to access your personal data. If we choose to charge a fee, we will provide you with a written estimate of the fee we will be charging.\n\nWe reserve the right to refuse to correct your personal data in accordance with the provisions as set out in the Privacy Act."
+      },
+      {
+        "id": "contact",
+        "title": "QUESTIONS, ISSUES OR COMPLAINTS? CONTACT US",
+        "content": "If you have any questions or concerns about our privacy practices, or your relationship with the Services, please do not hesitate to contact: info@eurekalogistics.co.id"
+      },
+      {
+        "id": "terms_conditions",
+        "title": "TERMS AND CONDITIONS",
+        "content": "Please also read our Terms of Service which governs the use, disclaimers, and limitations of liability governing the use of the Site and Services and other related policies."
+      }
+    ],
+    "contactEmail": "info@eurekalogistics.co.id",
+    "lastUpdated": "July 17, 2025"
+  },
+  "services": {
+    "title": "Our Awesome Product",
+    "subtitle": "Integrated logistics solutions for your business",
+    "bottomText": "Ready to provide the best solutions for your logistics needs",
+    "serviceList": [
+      {
+        "id": 1,
+        "title": "Trucking",
+        "description": "Delivery service for full vehicle unit loads (Full Charter Service)",
+        "features": [
+          "Full Charter Service",
+          "Large Capacity",
+          "Efficient for High Volume"
+        ],
+        "color": "#2A388A",
+        "gradient": "from-blue-600 to-blue-800",
+        "icon": "🚛"
+      },
+      {
+        "id": 2,
+        "title": "Regular",
+        "description": "Fast, safe, and reliable delivery service for documents, letters, and packages throughout Indonesia.",
+        "features": [
+          "Fast Delivery",
+          "Real-time Tracking",
+          "National Coverage"
+        ],
+        "color": "#E92429",
+        "gradient": "from-red-500 to-red-700",
+        "icon": "🚐"
+      },
+      {
+        "id": 3,
+        "title": "Project Logistics",
+        "description": "Delivery throughout Indonesia using all types of vehicles through land, sea, and air routes.",
+        "features": [
+          "Multi-Modal Transport",
+          "Project Management",
+          "Custom Solutions"
+        ],
+        "color": "#2A388A",
+        "gradient": "from-green-600 to-blue-800",
+        "icon": "🚢"
+      },
+      {
+        "id": 4,
+        "title": "Movers (Moving Service)",
+        "description": "Moving services for residential (homes, apartments) and commercial (offices, warehouses) throughout Indonesia.",
+        "features": [
+          "Professional Packing",
+          "Goods Insurance",
+          "New Location Setup"
+        ],
+        "color": "#E92429",
+        "gradient": "from-purple-600 to-red-700",
+        "icon": "📦"
+      }
+    ]
+  },
+  "transport": {
+    "title": "Our Awesome Services",
+    "subtitle": "Providing various transportation modes for your logistics needs with cutting-edge technology",
+    "services": [
+      {
+        "id": 1,
+        "emoji": "✈️",
+        "title": "Air Route",
+        "description": "Air transportation service for international and domestic shipping.",
+        "features": [
+          "Express Delivery",
+          "International Shipping",
+          "Real-time Tracking"
+        ]
+      },
+      {
+        "id": 2,
+        "emoji": "🚛",
+        "title": "Land Route",
+        "description": "Land service with various types of vehicles, equipped with GPS & ERP for safer and more efficient shipping.",
+        "features": [
+          "GPS Tracking",
+          "ERP Integration",
+          "Multi-vehicle Fleet"
+        ]
+      },
+      {
+        "id": 3,
+        "emoji": "🚢",
+        "title": "Sea Route",
+        "description": "Sea shipping services outside Java using LTL and FTL systems, covering various shipping methods.",
+        "features": [
+          "LTL & FTL System",
+          "Roro & Pelni Ships",
+          "Nationwide Coverage"
+        ]
+      }
+    ],
+    "animations": {
+      "loadingText": "Loading services...",
+      "hoverTooltip": "Click to learn more",
+      "tapFeedback": "Service selected",
+      "particleEffect": "Interactive particles"
+    },
+    "accessibility": {
+      "cardLabel": "Service card",
+      "iconLabel": "Service icon",
+      "featuresLabel": "Service features",
+      "interactiveLabel": "Interactive element"
+    }
+  },
+  "serviceDetails": {
+    "airRoute": {
+      "fullTitle": "Air Transportation Services",
+      "longDescription": "Our air transportation service provides fast and reliable delivery solutions for both international and domestic shipping needs. With our network of airline partners and express delivery capabilities, we ensure your packages reach their destination quickly and safely.",
+      "benefits": [
+        "Fastest delivery times",
+        "Global reach and coverage",
+        "Priority handling for urgent shipments",
+        "Advanced tracking systems",
+        "Customs clearance support",
+        "Temperature-controlled options"
+      ],
+      "serviceTypes": [
+        "Express Air Freight",
+        "Standard Air Cargo",
+        "International Courier",
+        "Same-day Delivery",
+        "Next-day Delivery"
+      ]
+    },
+    "landRoute": {
+      "fullTitle": "Land Transportation Services",
+      "longDescription": "Our comprehensive land transportation service utilizes a modern fleet of vehicles equipped with GPS tracking and ERP integration. We provide efficient, secure, and cost-effective solutions for all your ground shipping needs across Indonesia.",
+      "benefits": [
+        "Real-time GPS tracking",
+        "Integrated ERP system",
+        "Diverse vehicle fleet",
+        "Door-to-door delivery",
+        "Scheduled and on-demand services",
+        "Proof of delivery confirmation"
+      ],
+      "serviceTypes": [
+        "Full Truck Load (FTL)",
+        "Less Than Truck Load (LTL)",
+        "Express Ground",
+        "Regular Ground",
+        "Specialized Transport"
+      ]
+    },
+    "seaRoute": {
+      "fullTitle": "Sea Transportation Services",
+      "longDescription": "Our sea transportation service offers cost-effective solutions for shipping goods outside Java and to international destinations. With both LTL and FTL options, we provide flexible shipping methods to meet your specific requirements.",
+      "benefits": [
+        "Cost-effective for bulk shipments",
+        "Flexible LTL and FTL options",
+        "Multiple shipping methods",
+        "Inter-island connectivity",
+        "Container and break-bulk services",
+        "Port-to-port and door-to-door options"
+      ],
+      "serviceTypes": [
+        "Container Shipping",
+        "Break Bulk Cargo",
+        "RoRo (Roll-on/Roll-off)",
+        "Pelni Partnership",
+        "Inter-island Ferry"
+      ]
+    }
+  },
+  "ui": {
+    "buttons": {
+      "learnMore": "Learn More",
+      "getQuote": "Get Quote",
+      "contactUs": "Contact Us",
+      "viewDetails": "View Details"
+    },
+    "states": {
+      "loading": "Loading...",
+      "error": "Error loading services",
+      "retry": "Retry",
+      "noServices": "No services available"
+    },
+    "interactions": {
+      "hover": "Hover for details",
+      "tap": "Tap to explore",
+      "swipe": "Swipe to see more",
+      "click": "Click for more information"
+    }
+  },
+  "features": {
+    "tracking": {
+      "title": "Real-time Tracking",
+      "description": "Monitor your shipment status in real-time"
+    },
+    "security": {
+      "title": "Secure Delivery",
+      "description": "Your packages are protected throughout the journey"
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Our team is available round the clock to assist you"
+    },
+    "network": {
+      "title": "Extensive Network",
+      "description": "Wide coverage across Indonesia and international destinations"
+    }
+  },
+  "cta": {
+    "title": "Ready to Ship?",
+    "subtitle": "Choose the best transportation solution for your needs",
+    "description": "Contact us today to discuss your logistics requirements and get a customized quote.",
+    "primaryButton": "Get Started",
+    "secondaryButton": "Learn More"
+  },
+  "intro": {
+    "welcome": "Welcome to Eureka Logistic"
+  },
+  "operational": {
+    "badge": "Operational Hours",
+    "title": "Ready to Serve You",
+    "description": "Our professional team is ready to help with your logistics needs every working day",
+    "status": {
+      "open": {
+        "title": "We're Open!",
+        "description": "Our team is ready to help you now"
+      },
+      "closed": {
+        "title": "We're Closed",
+        "description": "Please contact us during business hours"
+      }
+    },
+    "clock": {
+      "timezone": "WIB"
+    },
+    "actions": {
+      "contactNow": "Contact Now",
+      "outsideHours": "Outside Business Hours",
+      "sendMessage": "Send Message"
+    },
+    "schedule": {
+      "title": "Operational Schedule",
+      "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      },
+      "hours": {
+        "weekday": "08:00 - 17:00",
+        "saturday": "08:00 - 15:00",
+        "closed": "Closed"
+      },
+      "today": "Today"
+    }
+  },
+  "Contact": {
+    "intro": {
+      "badge": "Let's Collaborate",
+      "title": "Contact",
+      "titleHighlight": "Us",
+      "subtitle": "We are ready to be your trusted partner for your logistics solutions"
+    },
+    "quickContact": {
+      "title": "Easy Ways to Contact Us",
+      "subtitle": "Choose the communication method that is most convenient for you",
+      "methods": {
+        "phone": {
+          "title": "Phone",
+          "subtitle": "Call us directly",
+          "value": "021-87796010",
+          "action": "tel:02187796010"
+        },
+        "email": {
+          "title": "Email",
+          "subtitle": "Send us an email",
+          "value": "info@eurekalogistics.co.id",
+          "action": "mailto:info@eurekalogistics.co.id"
+        },
+        "location": {
+          "title": "Location",
+          "subtitle": "Visit our office",
+          "value": "Jl. H. Baping Raya No.100",
+          "action": "https://maps.app.goo.gl/dodzvqTmRV4fW74d6"
+        }
+      }
+    },
+    "About": {
+      "hero": {
+        "smallTitle": "About Us",
+        "bigTitle": "Our {0} & Journey",
+        "highlightedWord": "Story",
+        "subtitle": "Discover how we became a trusted logistics partner across Indonesia"
+      },
+      "title": "About Eureka Logistics",
+      "subtitle": "Your Trusted Logistics Partner",
+      "tabs": {
+        "about": "About",
+        "mission": "Vision & Mission"
+      },
+      "about": {
+        "title": "About Eureka Logistics",
+        "content": [
+          "PT Eureka Logistics and its group are part of PT Penerbit Erlangga (established in 1952). Founded in 2011, Eureka Logistics began its logistics operations by distributing PT Penerbit Erlangga's products to various regions across Indonesia, utilizing both land and sea transportation routes.",
+          "Over time, PT Eureka Logistics has grown by providing logistics services to various companies throughout Indonesia. To support this expansion, PT Eureka Logistics has been continuously increasing its fleet and actively collaborating with many trusted logistics companies in Indonesia.",
+          "PT Eureka Logistics understands the importance of logistics in business operations, including timely delivery, product packaging security, and effectiveness in coordinating with all related parties.",
+          "Currently, Eureka Logistics operates seven branch offices located in Bandung, Semarang, Yogyakarta, Surabaya, Palembang, Pekanbaru, and Medan. For areas beyond these locations, we coordinate through our group network, PT Penerbit Erlangga, which has branches nationwide, as well as through our reliable logistics partners.",
+          "We implement the Kaizen philosophy within our company; we are committed to continuous improvement and are always open to feedback and suggestions from our partners and clients who entrust us with their product deliveries. This implementation reflects our dedication to providing the best possible service to all of our customers."
+        ],
+        "stats": {
+          "founded": {
+            "value": "2011",
+            "label": "Founded"
+          },
+          "branches": {
+            "value": "7",
+            "label": "Branch Offices"
+          },
+          "groupExperience": {
+            "value": "1952",
+            "label": "Group Established"
+          }
+        }
+      },
+      "vision": {
+        "title": "Vision",
+        "content": "To become a reliable, secure, and timely logistics company with a customer-oriented approach and a network that spans both domestic and international markets."
+      },
+      "mission": {
+        "title": "Mission",
+        "items": [
+          "Building loyal, professional human resources committed to customer satisfaction",
+          "Building and developing transportation fleet, warehousing with integrated and reliable information systems",
+          "Building mutually supportive relationships with trusted partners",
+          "Providing excellent service (on time, right quantity and right quality)"
+        ]
+      },
+      "philosophy": {
+        "title": "Our Philosophy",
+        "subtitle": "Continuous improvement through Kaizen methodology",
+        "items": {
+          "commitment": {
+            "title": "Commitment",
+            "description": "Dedicated to customer satisfaction through reliable service"
+          },
+          "improvement": {
+            "title": "Improvement",
+            "description": "Continuously enhancing processes for better efficiency"
+          },
+          "excellence": {
+            "title": "Excellence",
+            "description": "Delivering premium logistics solutions with precision"
+          }
+        }
+      }
+    },
+    "office": {
+      "title": "Our Office",
+      "subtitle": "Visit our head office for direct consultation",
+      "headOffice": "Head Office",
+      "location": "East Jakarta",
+      "companyName": "Eureka Logistics",
+      "details": {
+        "address": {
+          "label": "Address",
+          "value": "Jl. H. Baping Raya No.100, Ciracas - East Jakarta"
+        },
+        "phone": {
+          "label": "Phone",
+          "value": "021-87796010"
+        },
+        "email": {
+          "label": "Email",
+          "value": "info@eurekalogistics.co.id"
+        }
+      }
+    }
+  }
+}
