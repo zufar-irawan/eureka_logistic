@@ -62,7 +62,7 @@ export default function HeroSection() {
           ))}
         </div>
 
-        {/* Arrow navigation (opsional) */}
+        {/* Arrow navigation (opsional) 
         <button
           onClick={() => setCurrentSlide(prev => prev === 0 ? slideData.length - 1 : prev - 1)}
           className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full p-3 transition-all duration-300 group"
@@ -79,7 +79,7 @@ export default function HeroSection() {
           <svg className="w-6 h-6 text-white group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
-        </button>
+        </button>*/}
       </div>
     </section>
   );

@@ -163,14 +163,15 @@ const Header = () => {
           : 'bg-white/90 backdrop-blur-sm'
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-16 md:h-20">
+            {/* Logo */}
             <Link href={`/${i18n.language}`} className="flex-shrink-0">
               <Image
                 src="/images/logo.png"
                 alt="Eureka Logistics"
                 width={160}
                 height={45}
-                className="h-12 w-auto"
+                className="h-10 md:h-12 w-auto"
               />
             </Link>
 
@@ -195,7 +196,7 @@ const Header = () => {
                 </Link>
               ))}
               
-              {/* Language Switcher */}
+              {/* Language Switcher Desktop */}
               <div className="relative ml-6">
                 <button
                   onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
@@ -239,69 +240,117 @@ const Header = () => {
               </div>
             </nav>
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={handleClick}
-              className={`md:hidden p-3 transition-colors ${
-                isScrolled 
-                  ? 'text-gray-700 hover:text-[#2A388A]'
-                  : 'text-gray-800 hover:text-[#2A388A]'
-              } ${isMedium ? '' : 'hidden'}`}
-            >
-              <i className="ri-menu-3-line text-3xl"></i>
-            </button>
+            {/* Mobile Right Side - Language + Menu */}
+            <div className="flex items-center space-x-2 md:hidden">
+              {/* Mobile Language Switcher - Outside Menu */}
+              <div className="relative">
+                <button
+                  onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
+                  className={`flex items-center space-x-1 px-2 py-2 text-sm font-medium transition-colors duration-200 rounded-lg ${
+                    isScrolled
+                      ? 'text-gray-700 hover:text-[#2A388A] hover:bg-gray-50'
+                      : 'text-gray-800 hover:text-[#2A388A] hover:bg-white/20'
+                  }`}
+                >
+                  <i className="ri-global-line w-4 h-4"></i>
+                  <span className="text-xs">{i18n.language?.toUpperCase()}</span>
+                  <i className={`ri-arrow-down-s-line w-3 h-3 transition-transform ${showLanguageDropdown ? 'rotate-180' : ''}`}></i>
+                </button>
+
+                {showLanguageDropdown && (
+                  <div className="absolute top-full mt-2 right-0 bg-white border border-gray-200 rounded-lg shadow-lg py-1 min-w-[100px] z-50">
+                    <button
+                      onClick={() => changeLanguage('id')}
+                      className="w-full flex items-center space-x-2 px-3 py-2 text-xs hover:bg-gray-50 transition-colors"
+                    >
+                      <img
+                        className="w-4 h-4 rounded-sm"
+                        src="https://cdn.masterdiskon.com/masterdiskon/assets/front/img/icon/flag/209-indonesia.svg"
+                        alt="Indonesia"
+                      />
+                      <span>ID</span>
+                    </button>
+                    <button
+                      onClick={() => changeLanguage('en')}
+                      className="w-full flex items-center space-x-2 px-3 py-2 text-xs hover:bg-gray-50 transition-colors"
+                    >
+                      <img
+                        className="w-4 h-4 rounded-sm"
+                        src="https://cdn.masterdiskon.com/masterdiskon/assets/front/img/icon/flag/260-united-kingdom.svg"
+                        alt="English"
+                      />
+                      <span>EN</span>
+                    </button>
+                  </div>
+                )}
+              </div>
+
+              {/* Mobile Menu Button */}
+              <button
+                onClick={handleClick}
+                className={`p-2 transition-colors rounded-lg ${
+                  isScrolled 
+                    ? 'text-gray-700 hover:text-[#2A388A] hover:bg-gray-50'
+                    : 'text-gray-800 hover:text-[#2A388A] hover:bg-white/20'
+                }`}
+              >
+                <i className={`text-2xl transition-transform ${isOpen ? 'ri-close-line rotate-90' : 'ri-menu-3-line'}`}></i>
+              </button>
+            </div>
           </div>
         </div>
       </header>
 
+      {/* Mobile Menu Overlay */}
+      <div className={`fixed inset-0 bg-black/50 z-30 md:hidden transition-opacity duration-300 ${
+        isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+      }`} onClick={() => setIsOpen(false)} />
+
       {/* Mobile Menu Nav */}
-      <nav className={`py-12 text-center z-50 fixed bg-white transition-all w-72 shadow-2xl ${
-        isVisible ? 'top-20' : 'top-0'
-      } ${isOpen ? 'right-0' : '-right-72'}`}>
-        <ul className="text-lg font-medium mr-20 w-full">
-          {menuItems.map((item) => (
-            <li key={item.section} className="py-8 w-full text-gray-700 hover:text-white hover:bg-[#FBB338] transition-colors">
-              <Link 
-                href={localizedHref(item.href)} 
-                onClick={linkClick} 
-                className={`w-full py-6 block ${activeSection === item.section ? 'text-[#2A388A] font-semibold' : ''}`}
-              >
-                {item.label}
-              </Link>
-            </li>
-          ))}
-          
-          {/* Language Switcher Mobile */}
-          <li className="py-8 w-full">
-            <div className="px-6">
-              <p className="text-gray-500 text-base mb-4">{t('header.language.current')}</p>
-              <div className="flex justify-center gap-6">
-                <button
-                  onClick={() => changeLanguage('id')}
-                  className="flex items-center space-x-3 px-4 py-3 text-base hover:bg-gray-50 transition-colors rounded"
+      <nav className={`fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white z-40 md:hidden transform transition-transform duration-300 shadow-2xl ${
+        isOpen ? 'translate-x-0' : 'translate-x-full'
+      }`}>
+        {/* Mobile Menu Header - Now with Logo */}
+        <div className={`flex items-center justify-between px-6 transition-all duration-300 border-b border-gray-100 ${
+          isVisible ? 'h-16 mt-16' : 'h-16 mt-0'
+        }`}>
+          <Link href={`/${i18n.language}`} onClick={linkClick} className="flex-shrink-0">
+            <Image
+              src="/images/logo.png"
+              alt="Eureka Logistics"
+              width={120}
+              height={34}
+              className="h-8 w-auto"
+            />
+          </Link>
+          <button
+            onClick={() => setIsOpen(false)}
+            className="p-2 text-gray-500 hover:text-gray-700 transition-colors"
+          >
+            <i className="ri-close-line text-xl"></i>
+          </button>
+        </div>
+
+        {/* Mobile Menu Items */}
+        <div className="px-6 py-4">
+          <ul className="space-y-2">
+            {menuItems.map((item) => (
+              <li key={item.section}>
+                <Link 
+                  href={localizedHref(item.href)} 
+                  onClick={linkClick} 
+                  className={`block px-4 py-3 text-base font-medium rounded-lg transition-colors ${
+                    activeSection === item.section 
+                      ? 'text-[#2A388A] bg-blue-50 font-semibold' 
+                      : 'text-gray-700 hover:text-[#2A388A] hover:bg-gray-50'
+                  }`}
                 >
-                  <img
-                    className="w-6 h-6 rounded-sm"
-                    src="https://cdn.masterdiskon.com/masterdiskon/assets/front/img/icon/flag/209-indonesia.svg"
-                    alt="Indonesia"
-                  />
-                  <span>ID</span>
-                </button>
-                <button
-                  onClick={() => changeLanguage('en')}
-                  className="flex items-center space-x-3 px-4 py-3 text-base hover:bg-gray-50 transition-colors rounded"
-                >
-                  <img
-                    className="w-6 h-6 rounded-sm"
-                    src="https://cdn.masterdiskon.com/masterdiskon/assets/front/img/icon/flag/260-united-kingdom.svg"
-                    alt="English"
-                  />
-                  <span>EN</span>
-                </button>
-                </div>
-            </div>
-          </li>
-        </ul>
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       </nav>
     </>
   );

@@ -113,7 +113,8 @@
   "branchHero": {
     "badge": "Our Branch Offices",
     "title": "Our Branches",
-    "description": "Find the nearest branch office for more personalized logistics services"
+    "description": "Find the nearest branch office for more personalized logistics services",
+    "imageAlt": "Background"
   },
   "whyChooseUs": {
     "title": "Why Choose Us?",
@@ -137,7 +138,7 @@
     "badge": "Trusted & Professional",
     "title": {
       "line1": "What Are You Waiting For, Join",
-      "line2": "Eureka Logistics",
+      "line2": "Eureka",
       "exclamation": "!"
     },
     "description": "Leading logistics solutions for companies that produce and distribute their products throughout Indonesia with modern technology.",

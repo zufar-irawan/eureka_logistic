@@ -1,5 +1,5 @@
-import HomeClient from "./HomeClient";
+import LangPageWrapper from './LangPageWrapper';
 
-export default async function Page({ params }: { params: { lang: string } }) {
-  return <HomeClient lang={params.lang} />;
+export default function Page({ params }: { params: { lang: string } }) {
+  return <LangPageWrapper lang={params.lang} />;
 }

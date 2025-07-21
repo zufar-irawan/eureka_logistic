@@ -113,7 +113,8 @@
   "branchHero": {
     "badge": "Kantor cabang kami",
     "title": "Cabang kami",
-    "description": "Temukan kantor cabang terdekat untuk layanan logistik yang lebih personal"
+    "description": "Temukan kantor cabang terdekat untuk layanan logistik yang lebih personal",
+    "imageAlt": "Background"
   },
   "whyChooseUs": {
     "title": "Mengapa Memilih Kami?",
@@ -137,7 +138,7 @@
     "badge": "Tepercaya & profesional",
     "title": {
       "line1": "Tunggu apa lagi, bergabunglah",
-      "line2": "Logistik Eureka",
+      "line2": "Eureka",
       "exclamation": "!"
     },
     "description": "Solusi logistik terkemuka untuk perusahaan yang memproduksi dan mendistribusikan produk mereka di seluruh Indonesia dengan teknologi modern.",

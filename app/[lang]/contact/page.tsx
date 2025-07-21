@@ -1,4 +1,4 @@
-//page.tsx contact//
+//contact/page.tsx
 'use client';
 
 import { useEffect, useState } from 'react';

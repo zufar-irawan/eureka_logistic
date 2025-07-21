@@ -1,3 +1,5 @@
+//about/page.tsx
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -60,6 +62,43 @@ export default function AboutPage() {
     hidden: { x: -20, opacity: 0 },
     show: { x: 0, opacity: 1, transition: { duration: 0.5 } },
     exit: { x: 20, opacity: 0, transition: { duration: 0.3 } }
+  };
+
+  // Improved animation variants with faster timing
+  const containerVariants: Variants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.08,
+        delayChildren: 0.1,
+        duration: 0.3
+      }
+    }
+  };
+
+  const itemVariants: Variants = {
+    hidden: { y: 30, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.4,
+        ease: "easeOut"
+      }
+    }
+  };
+
+  const fastVariants: Variants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.3,
+        ease: "easeOut"
+      }
+    }
   };
 
   // Helper function to safely get array from translation
@@ -188,8 +227,8 @@ export default function AboutPage() {
       <Header />
 
       <main className="pt-0 overflow-hidden">
-        {/* Hero Section - Text Only */}
-        <section className="relative text-white py-28 px-6 overflow-hidden">
+        {/* Hero Section - Matching Contact Page Size */}
+        <section className="relative text-white text-center py-32 px-6 overflow-hidden">
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-gradient-to-r from-[#2A388A] to-[#1a245f]"></div>
             <div className="absolute inset-0 opacity-10 bg-[url('/images/grid-pattern.svg')] bg-cover"></div>
@@ -223,16 +262,14 @@ export default function AboutPage() {
           </div>
 
           <motion.div
-            className="relative z-10 max-w-7xl mx-auto text-center"
-            initial={{ opacity: 0, y: -30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            className="relative z-10 max-w-4xl mx-auto"
+            initial="hidden"
+            animate="visible"
+            variants={containerVariants}
           >
             <motion.div
-              className="inline-block px-6 py-2 bg-white/20 rounded-full backdrop-blur-sm mb-6"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
+              className="inline-block px-6 py-2 bg-white/20 rounded-full backdrop-blur-sm mb-8"
+              variants={fastVariants}
             >
               <p className="text-sm font-medium">
                 {t("About.hero.smallTitle")}
@@ -240,13 +277,11 @@ export default function AboutPage() {
             </motion.div>
 
             <motion.h1
-              className="text-4xl md:text-6xl font-bold mb-6 leading-tight"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
+              className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
+              variants={itemVariants}
               dangerouslySetInnerHTML={{
                 __html: t("About.hero.bigTitle", {
-                  highlightedWord: `<span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-400">${t(
+                  highlightedWord: `<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-cyan-200">${t(
                     "About.hero.highlightedWord"
                   )}</span>`,
                 }),
@@ -254,10 +289,8 @@ export default function AboutPage() {
             />
 
             <motion.p
-              className="text-xl max-w-2xl mx-auto text-blue-100 leading-relaxed"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
+              className="text-xl md:text-2xl max-w-2xl mx-auto text-blue-100 leading-relaxed"
+              variants={itemVariants}
             >
               {t("About.hero.subtitle")}
             </motion.p>
@@ -537,7 +570,7 @@ export default function AboutPage() {
                   </motion.div>
                 </motion.div>
 
-                {/* Enhanced Second Truck Image */}``
+                {/* Enhanced Second Truck Image - Fixed positioning */}
                 <motion.div 
                   className="relative h-96 lg:h-[500px]"
                   variants={item}
@@ -547,11 +580,10 @@ export default function AboutPage() {
                   <motion.div
                     className="relative w-full h-full"
                     animate={{
-                      y: [0, -10, 0],
-                      rotate: [0, 1, -1, 0],
+                      y: [0, -15, 0],
                     }}
                     transition={{
-                      duration: 6,
+                      duration: 4,
                       repeat: Infinity,
                       repeatType: "reverse",
                       ease: "easeInOut"
@@ -566,31 +598,42 @@ export default function AboutPage() {
                     />
                   </motion.div>
                   
-                  {/* Animated background elements for second truck */}
+                  {/* 3D Background Elements - Same as About tab */}
                   <motion.div
-                    className="absolute -top-16 -left-16 w-72 h-72 bg-gradient-to-br from-blue-200 to-red-200 rounded-full opacity-30 blur-3xl"
+                    className="absolute -bottom-12 -left-12 w-40 h-40 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full opacity-20 blur-2xl"
                     animate={{
-                      scale: [1, 1.3, 1],
-                      opacity: [0.2, 0.4, 0.2],
-                      rotate: [0, 180, 360],
+                      scale: [1, 1.2, 1],
+                      opacity: [0.2, 0.3, 0.2],
                     }}
                     transition={{
-                      duration: 8,
+                      duration: 4,
                       repeat: Infinity,
+                      repeatType: "reverse",
                       ease: "easeInOut"
                     }}
                   />
                   <motion.div
-                    className="absolute -bottom-8 -right-8 w-48 h-48 bg-gradient-to-br from-yellow-200 to-red-300 rounded-full opacity-25 blur-2xl"
+                    className="absolute -top-12 -right-12 w-32 h-32 bg-gradient-to-br from-red-400 to-red-600 rounded-full opacity-20 blur-2xl"
                     animate={{
                       scale: [1.2, 1, 1.2],
-                      opacity: [0.3, 0.1, 0.3],
+                      opacity: [0.3, 0.2, 0.3],
                     }}
                     transition={{
-                      duration: 7,
+                      duration: 5,
                       repeat: Infinity,
                       repeatType: "reverse",
                       ease: "easeInOut"
+                    }}
+                  />
+                  <motion.div
+                    className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-r from-blue-100 to-red-100 rounded-full opacity-10 blur-3xl"
+                    animate={{
+                      rotate: [0, 360],
+                    }}
+                    transition={{
+                      duration: 20,
+                      repeat: Infinity,
+                      ease: "linear"
                     }}
                   />
                 </motion.div>

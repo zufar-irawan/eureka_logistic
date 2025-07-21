@@ -7,10 +7,10 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { locales, defaultLocale } from './config';
 
 // Import manual untuk setiap bahasa
-import idCommon from '@/public/locales/id/common.json';
-import enCommon from '@/public/locales/en/common.json';
-import idAbout from '@/public/locales/id/about.json';
-import enAbout from '@/public/locales/en/about.json'
+import idCommon from '@/locales/id/common.json';
+import enCommon from '@/locales/en/common.json';
+import idAbout from '@/locales/id/about.json';
+import enAbout from '@/locales/en/about.json'
 
 const resources = {
   id: {

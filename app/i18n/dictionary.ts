@@ -2,8 +2,8 @@
 import 'server-only';
 
 const dictionaries = {
-  en: () => import('@/public/locales/en/common.json').then((module) => module.default),
-  id: () => import('@/public/locales/id/common.json').then((module) => module.default),
+  en: () => import('../../locales/en/common.json').then((module) => module.default),
+  id: () => import('../../locales/id/common.json').then((module) => module.default),
 };
 
 export const getDictionary = async (locale: keyof typeof dictionaries) => {
